@@ -1,14 +1,18 @@
 import { useState } from 'react'
-
 import { plans } from '../data/plans'
-
 import PlanCard from './common/PlanCard'
 
+import useForm from '../hooks/useForm'
 
-const Plan = () => {
-  const [isYearly, setIsYearly] = useState(false)
-  const [selectedPlan, setSelectedPlan] = useState('arcade')
+const Plan = ({onNext, onBack}) => {
+  const { formData, updateFormData } = useForm()
+  const [selectedPlan, setSelectedPlan] = useState(formData.plan.type)
+  const [isYearly, setIsYearly] = useState(formData.plan.isYearly)
 
+  const handleNext = () => {
+    updateFormData('plan', { type: selectedPlan, isYearly })
+    onNext()
+  }
  
   return (
     <div className="w-full font-ubuntu max-w-lg p-8 bg-white rounded-lg shadow-md">
@@ -46,6 +50,8 @@ const Plan = () => {
           <span className={`font-bold ${isYearly ? 'text-marine-blue' : 'text-cool-gray '}`}>Yearly</span>
         </div>
       </div>
+      <button onClick={onBack} >Back</button>
+      <button onClick={handleNext} >Next</button>
     </div>
   )
 }

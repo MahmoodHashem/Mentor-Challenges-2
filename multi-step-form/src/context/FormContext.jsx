@@ -1,4 +1,4 @@
-import { createContext, useState, useContext } from 'react'
+import { createContext, useState} from 'react'
 
 const FormContext = createContext()
 
@@ -36,4 +36,4 @@ export const FormProvider = ({ children }) => {
   )
 }
 
-export const useForm = () => useContext(FormContext)
+export default FormContext

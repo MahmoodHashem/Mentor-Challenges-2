@@ -1,4 +1,4 @@
-import { useForm } from '../context/FormContext'
+import  useForm  from '../hooks/useForm'
 import Personal from './Personal'
 import Plan from './Plan'
 import AddOns from './AddOns'
@@ -6,6 +6,8 @@ import Finish from './Finish'
 
 const MultiStepForm = () => {
   const { currentStep, setCurrentStep, formData } = useForm()
+
+  
 
   const nextStep = () => setCurrentStep(prev => prev + 1)
   const prevStep = () => setCurrentStep(prev => prev - 1)
@@ -15,11 +17,11 @@ const MultiStepForm = () => {
       case 1:
         return <Personal onNext={nextStep} />
       case 2:
-        return <Plan onNext={nextStep} onBack={prevStep} />
+        return <Plan onNext={nextStep}  onBack={prevStep}  />
       case 3:
-        return <AddOns onNext={nextStep} onBack={prevStep} />
+        return <AddOns onNext={nextStep} onBack={prevStep} isYearly={formData.plan.isYearly} />
       case 4:
-        return <Finish onBack={prevStep} />
+        return <Finish onBack={prevStep} isYearly={formData.plan.isYearly} />
       default:
         return null
     }

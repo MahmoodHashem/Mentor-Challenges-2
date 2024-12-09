@@ -1,9 +1,24 @@
-const Finish = ({ plan, addons, isYearly }) => {
-    // Calculate total
-    const planPrice = isYearly ? plan.yearlyPrice : plan.monthlyPrice
-    const addonsTotal = addons.reduce((sum, addon) => 
+import useForm from "../hooks/useForm"
+import { plans } from "../data/plans"
+import { addons } from "../data/addons"
+
+const Finish = ({ onBack}) => {
+    const { formData } = useForm()
+    const { plan, addons: savedAddons } = formData
+    const planName = plans.find(p => p.id === plan.type)
+    const selectedAddons = addons.filter(addon => savedAddons.includes(addon.id))
+
+    const isYearly = plan.isYearly
+
+    console.log( planName)
+    console.log(selectedAddons)
+    
+    const planPrice = isYearly ? planName.yearlyPrice : planName.monthlyPrice
+    const addonsTotal = selectedAddons.reduce((sum, addon) => 
       sum + (isYearly ? addon.yearlyPrice : addon.monthlyPrice), 0)
     const total = planPrice + addonsTotal
+
+
   
     return (
       <div className="w-full max-w-lg p-8 bg-white rounded-lg shadow-md">
@@ -17,21 +32,21 @@ const Finish = ({ plan, addons, isYearly }) => {
           <div className="flex justify-between items-center pb-6 border-b">
             <div>
               <h2 className="font-medium text-marine-blue">
-                {plan.name} ({isYearly ? 'Yearly' : 'Monthly'})
+                {planName.name} ({isYearly ? 'Yearly' : 'Monthly'})
               </h2>
               <button className="text-cool-gray underline hover:text-purplish-blue">
                 Change
               </button>
             </div>
             <span className="font-bold text-marine-blue">
-              ${isYearly ? `${plan.yearlyPrice}/yr` : `${plan.monthlyPrice}/mo`}
+              ${isYearly ? `${planName.yearlyPrice}/yr` : `${planName.monthlyPrice}/mo`}
             </span>
           </div>
   
           {/* Add-ons */}
-          {addons.length > 0 && (
+          {selectedAddons.length > 0 && (
             <div className="mt-4 space-y-4">
-              {addons.map(addon => (
+              {selectedAddons.map(addon => (
                 <div key={addon.id} className="flex justify-between items-center">
                   <span className="text-cool-gray">{addon.name}</span>
                   <span className="text-marine-blue">
@@ -52,9 +67,9 @@ const Finish = ({ plan, addons, isYearly }) => {
             ${total}/{isYearly ? 'yr' : 'mo'}
           </span>
         </div>
+        <button onClick={onBack} >back</button>
       </div>
     )
   }
   
   export default Finish
-  

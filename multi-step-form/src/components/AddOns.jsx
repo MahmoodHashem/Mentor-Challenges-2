@@ -1,18 +1,28 @@
-import { useState } from 'react'
+import { useContext, useState } from 'react'
 import { addons } from '../data/addons'
 import AddOnCard from './common/AddOnCard'
+import  useForm  from '../hooks/useForm'
+import FormContext from '../context/FormContext'
 
+const AddOns = ({ isYearly = false, onNext, onBack }) => {
+  const { formData, updateFormData } = useForm()
+  const [selectedAddons, setSelectedAddons] = useState(formData.addons)
 
-const AddOns = ({ isYearly = false }) => {
-  const [selectedAddons, setSelectedAddons] = useState([])
-
-  const toggleAddon = (addonId) => {
-    setSelectedAddons(prev => 
-      prev.includes(addonId)
-        ? prev.filter(id => id !== addonId)
-        : [...prev, addonId]
-    )
+  const handleNext = () => {
+    updateFormData('addons', selectedAddons)
+    onNext()
   }
+
+console.log(formData)
+
+const toggleAddon = (addonId) => {
+  const updatedAddons = selectedAddons.includes(addonId)
+    ? selectedAddons.filter(id => id !== addonId)
+    : [...selectedAddons, addonId]
+    
+  setSelectedAddons(updatedAddons)
+  updateFormData('addons', updatedAddons)
+}
 
   return (
     <div className="w-full max-w-lg p-8 bg-white rounded-lg shadow-md">
@@ -32,6 +42,8 @@ const AddOns = ({ isYearly = false }) => {
         />
         ))}
       </div>
+      <button onClick={onBack} >Back</button>
+      <button onClick={handleNext} >Next</button>
     </div>
   )
 }

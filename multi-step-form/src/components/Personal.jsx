@@ -2,44 +2,40 @@
 import { useState } from "react"
 import FormInput from './common/FormInput'
 import { validatePersonalInfo } from '../utils/validation'
+import useForm from "../hooks/useForm"
 
-const Personal = () => {
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        phone: ''
-    })
-
-    const [errors, setErrors] = useState({
-        name: '',
-        email: '',
-        phone: ''
-    })
-
+const Personal = ({ onNext }) => {
+    const { formData, updateFormData } = useForm()
+    const [errors, setErrors] = useState({})
+  
+    console.log(formData)
 
     const handleChange = (e) => {
         const { id, value } = e.target
-        setFormData(prev => ({
-            ...prev,
-            [id]: value
-        }))
-
+        updateFormData('personalInfo', {
+          ...formData.personalInfo,
+          [id]: value
+        })
+      
+        // Clear error for the field being changed
         if (errors[id]) {
-            setErrors(prev => ({
-                ...prev,
-                [id]: ''
-            }))
+          setErrors(prev => ({
+            ...prev,
+            [id]: ''
+          }))
         }
-    }
+      }
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        const { isValid, errors: newErrors } = validatePersonalInfo(formData)
-        setErrors(newErrors)
+        const { isValid, errors: newErrors } = validatePersonalInfo(formData.personalInfo)
         
         if (isValid) {
-          console.log('Form is valid:', formData)
-          //TODO: Proceed to next step
+          updateFormData('personalInfo', formData.personalInfo)
+          onNext()
+        console.log(formData)
+        } else {
+          setErrors(newErrors)
         }
       }
     return (
@@ -54,8 +50,8 @@ const Personal = () => {
                     label="Name"
                     id="name"
                     type="text"
-                    value={formData.name}
-                    onChange={handleChange}
+                    value={formData.personalInfo.name}
+                    onChange={(handleChange)}
                     placeholder="e.g. Stephen King"
                     error={errors.name}
                 />
@@ -64,7 +60,7 @@ const Personal = () => {
                     label="Email Address"
                     id="email"
                     type="email"
-                    value={formData.email}
+                    value={formData.personalInfo.email}
                     onChange={handleChange}
                     placeholder="e.g. stephenking@lorem.com"
                     error={errors.email}
@@ -74,7 +70,7 @@ const Personal = () => {
                     label="Phone Number"
                     id="phone"
                     type="tel"
-                    value={formData.phone}
+                    value={formData.personalInfo.phone}
                     onChange={handleChange}
                     placeholder="e.g. +1 234 567 890"
                     error={errors.phone}

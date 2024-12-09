@@ -1,6 +1,8 @@
 export const validatePersonalInfo = (formData) => {
     let errors = {}
     let isValid = true
+
+    console.log(formData)
   
     // Name validation
     if (!formData.name.trim()) {
