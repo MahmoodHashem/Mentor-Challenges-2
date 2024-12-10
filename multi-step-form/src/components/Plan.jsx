@@ -1,21 +1,34 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { plans } from '../data/plans'
 import PlanCard from './common/PlanCard'
 
 import useForm from '../hooks/useForm'
 
-const Plan = ({onNext, onBack}) => {
+const Plan = () => {
   const { formData, updateFormData } = useForm()
-  const [selectedPlan, setSelectedPlan] = useState(formData.plan.type)
-  const [isYearly, setIsYearly] = useState(formData.plan.isYearly)
+  const [selectedPlan, setSelectedPlan] = useState(formData.plan.type || 'arcade')
+  const [isYearly, setIsYearly] = useState(formData.plan.isYearly || false)
 
-  const handleNext = () => {
-    updateFormData('plan', { type: selectedPlan, isYearly })
-    onNext()
-  }
- 
+
+  useEffect(() => {
+    updateFormData('plan',
+      {
+        type: selectedPlan,
+        isYearly: isYearly
+      } )
+
+    console.log(formData.plan.type)
+    console.log(formData.plan.isYearly)
+
+   
+
+  }, [selectedPlan, isYearly])
+
+
+
+
   return (
-    <div className="w-full font-ubuntu max-w-lg p-8 bg-white rounded-lg shadow-md">
+    <div className="w-full font-ubuntu   bg-white ">
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-marine-blue mb-2">Select your plan</h1>
         <p className="text-cool-gray">You have the option of monthly or yearly billing.</p>
@@ -23,15 +36,15 @@ const Plan = ({onNext, onBack}) => {
 
       <div className="space-y-4">
         {/* Plan Options */}
-        <div className="grid sm:grid-cols-3 gap-4">
+        <div className="grid md:grid-cols-3 gap-4">
           {plans.map((plan) => (
             <PlanCard
-            key={plan.id}
-            plan={plan}
-            isYearly={isYearly}
-            isSelected={selectedPlan === plan.id}
-            onClick={() => setSelectedPlan(plan.id)}
-          />
+              key={plan.id}
+              plan={plan}
+              isYearly={isYearly}
+              isSelected={selectedPlan === plan.id}
+              onClick={() => setSelectedPlan(plan.id)}
+            />
           ))}
         </div>
 
@@ -50,8 +63,7 @@ const Plan = ({onNext, onBack}) => {
           <span className={`font-bold ${isYearly ? 'text-marine-blue' : 'text-cool-gray '}`}>Yearly</span>
         </div>
       </div>
-      <button onClick={onBack} >Back</button>
-      <button onClick={handleNext} >Next</button>
+
     </div>
   )
 }

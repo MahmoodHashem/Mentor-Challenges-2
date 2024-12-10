@@ -12,7 +12,7 @@ const AddOnCard = ({ addon, isYearly, isSelected, onToggle }) => {
         role="checkbox"
         aria-checked={isSelected}
         onKeyDown={handleKeyDown}
-        className={`flex items-center p-4 border rounded-lg cursor-pointer hover:border-purplish-blue
+        className={`flex items-center p-4 border rounded-lg cursor-pointer focus:ring-1 hover:border-purplish-blue
           focus:outline-none 
           ${isSelected ? 'border-purplish-blue bg-magnolia' : 'border-light-gray'}`}
       >

@@ -1,14 +1,9 @@
 
-import { useState } from "react"
 import FormInput from './common/FormInput'
-import { validatePersonalInfo } from '../utils/validation'
 import useForm from "../hooks/useForm"
 
-const Personal = ({ onNext }) => {
+const Personal = ({ errors, setErrors }) => {
     const { formData, updateFormData } = useForm()
-    const [errors, setErrors] = useState({})
-  
-    console.log(formData)
 
     const handleChange = (e) => {
         const { id, value } = e.target
@@ -17,7 +12,6 @@ const Personal = ({ onNext }) => {
           [id]: value
         })
       
-        // Clear error for the field being changed
         if (errors[id]) {
           setErrors(prev => ({
             ...prev,
@@ -26,26 +20,15 @@ const Personal = ({ onNext }) => {
         }
       }
 
-    const handleSubmit = (e) => {
-        e.preventDefault()
-        const { isValid, errors: newErrors } = validatePersonalInfo(formData.personalInfo)
-        
-        if (isValid) {
-          updateFormData('personalInfo', formData.personalInfo)
-          onNext()
-        console.log(formData)
-        } else {
-          setErrors(newErrors)
-        }
-      }
+ 
     return (
-        <div className="w-full max-w-lg p-8 bg-white rounded-lg shadow-md">
+        <div className="w-full   bg-white ">
             <div className="mb-8">
                 <h1 className="text-3xl font-bold text-marine-blue mb-2">Personal info</h1>
                 <p className="text-cool-gray">Please provide your name, email address, and phone number.</p>
             </div>
 
-            <form onSubmit={handleSubmit} noValidate className="space-y-6">
+            <form  noValidate className="space-y-5">
                 <FormInput
                     label="Name"
                     id="name"
@@ -75,7 +58,7 @@ const Personal = ({ onNext }) => {
                     placeholder="e.g. +1 234 567 890"
                     error={errors.phone}
                 />
-                <button>Submit</button>
+               
             </form>
 
         </div>
