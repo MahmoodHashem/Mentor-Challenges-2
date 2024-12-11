@@ -21,7 +21,7 @@ export const validatePersonalInfo = (formData) => {
     }
   
     // Phone validation
-    const phoneRegex = /^\+?[\d\s-]{10,}$/
+    const phoneRegex = /^\+?[\d\s-]{10,12}$/
     if (!formData.phone) {
       errors.phone = 'Phone number is required'
       isValid = false

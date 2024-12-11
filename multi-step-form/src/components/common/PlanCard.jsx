@@ -2,7 +2,7 @@ const PlanCard = ({ plan, isYearly, isSelected, onClick }) => {
     return (
       <button
         onClick={onClick}
-        className={`flex gap-3 items-start font-ubuntu sm:flex-col p-4 border rounded-lg text-left hover:border-purplish-blue transition-all
+        className={`flex gap-3 items-start font-ubuntu md:flex-col p-4 border rounded-lg text-left hover:border-purplish-blue transition-all
           ${isSelected ? 'border-purplish-blue bg-magnolia' : 'border-light-gray'}`}
       >
         <img src={plan.icon} alt={plan.name} className="md:mb-5" />
