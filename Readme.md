@@ -4,9 +4,8 @@ This repository is a continuation of my [previous Frontend Mentor challenges rep
 
 ## Previous Work
 
-To see my earlier completed challenges (before [DATE]), please visit:
-
-- [Frontend Mentor Challenges - Part ](https://github.com/MahmoodHashem/Mentor-Challanges)
+> To see my earlier completed challenges (before  10 Dec, 2024), please visit:
+> [Frontend Mentor Challenges - Part-1](https://github.com/MahmoodHashem/Mentor-Challanges)
 
 ## Current Challenges
 
@@ -24,9 +23,9 @@ Below are my latest Frontend Mentor challenge solutions:
 
 ##### Multi Step Form
 
-- [Live](https://mahmoodhashem.github.io/Mentor-Challanges/QR%20code/index.html) |[ Repo ](https://github.com/MahmoodHashem/Mentor-Challanges/tree/main/QR%20code)| [Try out](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
+- [Live](https://multi-step-form-eta-smoky.vercel.app/) |[ Repo ](https://github.com/MahmoodHashem/Mentor-Challenges-2/tree/main/multi-step-form)| [Try out](https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ)
 
-  - ![img](./QR%20code/images/screenshot.png)
+  - ![img](./multi-step-form/public/images/screenshot.png)
 
 ## About Frontend Mentor
 
