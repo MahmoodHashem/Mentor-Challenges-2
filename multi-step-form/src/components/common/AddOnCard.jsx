@@ -1,3 +1,5 @@
+import {motion} from 'motion/react'
+
 const AddOnCard = ({ addon, isYearly, isSelected, onToggle }) => {
     
     const handleKeyDown = (e) => {
@@ -7,7 +9,9 @@ const AddOnCard = ({ addon, isYearly, isSelected, onToggle }) => {
         }
       }
     return (
-        <label
+        <motion.label
+        whileHover={{ scale: 1.02 }}
+        whileTap={{ scale: 0.98 }}
         tabIndex="0"
         role="checkbox"
         aria-checked={isSelected}
@@ -32,7 +36,7 @@ const AddOnCard = ({ addon, isYearly, isSelected, onToggle }) => {
             <span className="text-purplish-blue">
                 +${isYearly ? `${addon.yearlyPrice}/yr` : `${addon.monthlyPrice}/mo`}
             </span>
-        </label>
+        </motion.label>
     )
 }
 
