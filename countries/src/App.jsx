@@ -42,8 +42,8 @@ function App() {
         <header className="bg-elements-light dark:bg-elements-dark shadow-md">
 
           <div className="container mx-auto py-6 px-4 flex justify-between items-center">
-            <h1 className="font-extrabold text-text-light dark:text-text-dark text-xl">Where in the world?</h1>
-            <div className="flex items-center gap-8">
+            <h1 className="hidden font-extrabold text-text-light dark:text-text-dark text-xl">Where in the world?</h1>
+            <div className="flex items-center justify-between w-full gap-8">
               <motion.button 
                 whileTap={{ scale: 0.95 }}
                 transition={{ type: "spring", stiffness: 400, damping: 17 }}              

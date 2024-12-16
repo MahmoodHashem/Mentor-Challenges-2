@@ -4,19 +4,14 @@ import englishData from '../data/data.json'
 import persianData from '../data/translated-data.json'
 import Map from './Map'
 import { motion, AnimatePresence } from 'motion/react'
+import { useEffect } from 'react'
 
 const CountryDetail = ({ language }) => {
 
   const { countryName } = useParams()
   const navigate = useNavigate()
-
-  console.log(countryName)
-
   const t = translations[language]
-  console.log(language)
-
   const data = language === 'en' ? englishData : persianData
-
   const country = data.find(c => c.name === countryName)
 
 
@@ -25,6 +20,9 @@ const CountryDetail = ({ language }) => {
     return
   }
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   const borderCountries = country.borders
     ? country.borders.map(border =>
@@ -49,7 +47,7 @@ const CountryDetail = ({ language }) => {
         <span> {language === 'en' ? '← Back' : ' → بازگشت'}</span>
       </Link>
 
-      <div className="grid grid-cols-2 gap-24 items-center">
+      <div className="grid grid-cols-2 gap-10 md:gap-16 lg:gap-24 items-center">
         <img
           src={country.flag}
           alt={`${country.name} flag`}

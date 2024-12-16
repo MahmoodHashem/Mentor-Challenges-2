@@ -19,8 +19,8 @@ const CountryList = ({ language }) => {
     const [sortBy, setSortBy] = useState('name')
     const [sortOrder, setSortOrder] = useState('asc')
 
-
     const t = translations[language]
+
     const data = language === 'en' ? englishData : persianData
 
 
@@ -65,8 +65,7 @@ const CountryList = ({ language }) => {
     }).slice(0, 5)
 
 
-
-
+    console.log(selectedFilter)
 
     const filteredCountries = selectedFilter
         ? data.filter(country => {
@@ -76,9 +75,9 @@ const CountryList = ({ language }) => {
                     ? country.capital === selectedFilter
                     : country.population.toString() === selectedFilter
         })
-        : data.filter(country => region === '' || country.region === region)
-
-
+        : data.filter(country => {
+            return region === '' || country.region === region
+        })
 
     const handleSuggestionClick = (item) => {
         const value = searchBy === 'country'
