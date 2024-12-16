@@ -5448,6 +5448,980 @@
           ],
           "cioc": "DEU",
           "independent": true
+        }, 
+        {
+          "name": "غنا",
+          "topLevelDomain": [".gh"],
+          "alpha2Code": "GH",
+          "alpha3Code": "GHA",
+          "callingCodes": ["233"],
+          "capital": "اکرا",
+          "altSpellings": ["GH"],
+          "subregion": "آفریقای غربی",
+          "region": "آفریقا",
+          "population": 31072945,
+          "latlng": [8, -2],
+          "demonym": "غنایی",
+          "area": 238533,
+          "gini": 43.5,
+          "timezones": ["UTC"],
+          "borders": ["بوردو", "ساحل عاج", "توگو"],
+          "nativeName": "Ghana",
+          "numericCode": "288",
+          "flags": {
+            "svg": "https://flagcdn.com/gh.svg",
+            "png": "https://flagcdn.com/w320/gh.png"
+          },
+          "currencies": [
+            {
+              "code": "GHS",
+              "name": "سدی غنا",
+              "symbol": "₵"
+            }
+          ],
+          "languages": [
+            {
+              "iso639_1": "en",
+              "iso639_2": "eng",
+              "name": "انگلیسی",
+              "nativeName": "English"
+            }
+          ],
+          "translations": {
+            "br": "Ghana",
+            "pt": "Gana",
+            "nl": "Ghana",
+            "hr": "Gana",
+            "fa": "غنا",
+            "de": "Ghana",
+            "es": "Ghana",
+            "fr": "Ghana",
+            "ja": "ガーナ",
+            "it": "Ghana",
+            "hu": "Ghána"
+          },
+          "flag": "https://flagcdn.com/gh.svg",
+          "regionalBlocs": [
+            {
+              "acronym": "AU",
+              "name": "اتحادیه آفریقا",
+              "otherNames": [
+                "الاتحاد الأفريقي",
+                "Union africaine",
+                "União Africana",
+                "Unión Africana",
+                "Umoja wa Afrika"
+              ]
+            }
+          ],
+          "cioc": "GHA",
+          "independent": true
+        },
+        {
+          "name": "جبل‌طارق",
+          "topLevelDomain": [".gi"],
+          "alpha2Code": "GI",
+          "alpha3Code": "GIB",
+          "callingCodes": ["350"],
+          "capital": "جبل‌طارق",
+          "altSpellings": ["GI"],
+          "subregion": "جنوب اروپا",
+          "region": "اروپا",
+          "population": 33691,
+          "latlng": [36.13333333, -5.35],
+          "demonym": "جبل‌طارقی",
+          "area": 6,
+          "timezones": ["UTC+01:00"],
+          "borders": ["اسپانیا"],
+          "nativeName": "Gibraltar",
+          "numericCode": "292",
+          "flags": {
+            "svg": "https://flagcdn.com/gi.svg",
+            "png": "https://flagcdn.com/w320/gi.png"
+          },
+          "currencies": [
+            {
+              "code": "GIP",
+              "name": "پوند جبل‌طارق",
+              "symbol": "£"
+            }
+          ],
+          "languages": [
+            {
+              "iso639_1": "en",
+              "iso639_2": "eng",
+              "name": "انگلیسی",
+              "nativeName": "English"
+            }
+          ],
+          "translations": {
+            "br": "Jibraltar",
+            "pt": "Gibraltar",
+            "nl": "Gibraltar",
+            "hr": "Gibraltar",
+            "fa": "جبل‌طارق",
+            "de": "Gibraltar",
+            "es": "Gibraltar",
+            "fr": "Gibraltar",
+            "ja": "ジブラルタル",
+            "it": "Gibilterra",
+            "hu": "Gibraltár"
+          },
+          "flag": "https://flagcdn.com/gi.svg",
+          "regionalBlocs": [
+            {
+              "acronym": "EU",
+              "name": "اتحادیه اروپا"
+            }
+          ],
+          "independent": false
+        },
+        {
+          "name": "یونان",
+          "topLevelDomain": [".gr"],
+          "alpha2Code": "GR",
+          "alpha3Code": "GRC",
+          "callingCodes": ["30"],
+          "capital": "آتن",
+          "altSpellings": [
+            "GR",
+            "Elláda",
+            "جمهوری هلسنکی",
+            "Ελληνική Δημοκρατία"
+          ],
+          "subregion": "جنوب اروپا",
+          "region": "اروپا",
+          "population": 10715549,
+          "latlng": [39, 22],
+          "demonym": "یونانی",
+          "area": 131990,
+          "gini": 32.9,
+          "timezones": ["UTC+02:00"],
+          "borders": ["آلبانی", "بلغارستان", "ترکیه", "مقدونیه شمالی"],
+          "nativeName": "Ελλάδα",
+          "numericCode": "300",
+          "flags": {
+            "svg": "https://flagcdn.com/gr.svg",
+            "png": "https://flagcdn.com/w320/gr.png"
+          },
+          "currencies": [
+            {
+              "code": "EUR",
+              "name": "یورو",
+              "symbol": "€"
+            }
+          ],
+          "languages": [
+            {
+              "iso639_1": "el",
+              "iso639_2": "ell",
+              "name": "یونانی (مدرن)",
+              "nativeName": "ελληνικά"
+            }
+          ],
+          "translations": {
+            "br": "Gres",
+            "pt": "Grécia",
+            "nl": "Griekenland",
+            "hr": "Grčka",
+            "fa": "یونان",
+            "de": "Griechenland",
+            "es": "Grecia",
+            "fr": "Grèce",
+            "ja": "ギリシャ",
+            "it": "Grecia",
+            "hu": "Görögország"
+          },
+          "flag": "https://flagcdn.com/gr.svg",
+          "regionalBlocs": [
+            {
+              "acronym": "EU",
+              "name": "اتحادیه اروپا"
+            }
+          ],
+          "cioc": "GRE",
+          "independent": true
+        },
+        {
+          "name": "گرینلند",
+          "topLevelDomain": [".gl"],
+          "alpha2Code": "GL",
+          "alpha3Code": "GRL",
+          "callingCodes": ["299"],
+          "capital": "نوک",
+          "altSpellings": ["GL", "Grønland"],
+          "subregion": "آمریکای شمالی",
+          "region": "آمریکا",
+          "population": 56367,
+          "latlng": [72, -40],
+          "demonym": "گرینلندی",
+          "area": 2166086,
+          "timezones": ["UTC-04:00", "UTC-03:00", "UTC-01:00", "UTC+00:00"],
+          "nativeName": "Kalaallit Nunaat",
+          "numericCode": "304",
+          "flags": {
+            "svg": "https://flagcdn.com/gl.svg",
+            "png": "https://flagcdn.com/w320/gl.png"
+          },
+          "currencies": [
+            {
+              "code": "DKK",
+              "name": "کرون دانمارکی",
+              "symbol": "kr"
+            }
+          ],
+          "languages": [
+            {
+              "iso639_1": "kl",
+              "iso639_2": "kal",
+              "name": "کالاالیسوت",
+              "nativeName": "kalaallisut"
+            }
+          ],
+          "translations": {
+            "br": "Greunland",
+            "pt": "Gronelândia",
+            "nl": "Groenland",
+            "hr": "Grenland",
+            "fa": "گرینلند",
+            "de": "Grönland",
+            "es": "Groenlandia",
+            "fr": "Groenland",
+            "ja": "グリーンランド",
+            "it": "Groenlandia",
+            "hu": "Grönland"
+          },
+          "flag": "https://flagcdn.com/gl.svg",
+          "independent": false
+        },
+        {
+          "name": "گرنادا",
+          "topLevelDomain": [".gd"],
+          "alpha2Code": "GD",
+          "alpha3Code": "GRD",
+          "callingCodes": ["1"],
+          "capital": "سن جورج",
+          "altSpellings": ["GD"],
+          "subregion": "کارائیب",
+          "region": "آمریکا",
+          "population": 112519,
+          "latlng": [12.11666666, -61.66666666],
+          "demonym": "گرنادایی",
+          "area": 344,
+          "timezones": ["UTC-04:00"],
+          "nativeName": "Grenada",
+          "numericCode": "308",
+          "flags": {
+            "svg": "https://flagcdn.com/gd.svg",
+            "png": "https://flagcdn.com/w320/gd.png"
+          },
+          "currencies": [
+            {
+              "code": "XCD",
+              "name": "دلار شرق کارائیب",
+              "symbol": "$"
+            }
+          ],
+          "languages": [
+            {
+              "iso639_1": "en",
+              "iso639_2": "eng",
+              "name": "انگلیسی",
+              "nativeName": "English"
+            }
+          ],
+          "translations": {
+            "br": "Grenada",
+            "pt": "Granada",
+            "nl": "Grenada",
+            "hr": "Grenada",
+            "fa": "گرنادا",
+            "de": "Grenada",
+            "es": "Grenada",
+            "fr": "Grenade",
+            "ja": "グレナダ",
+            "it": "Grenada",
+            "hu": "Grenada"
+          },
+          "flag": "https://flagcdn.com/gd.svg",
+          "regionalBlocs": [
+            {
+              "acronym": "CARICOM",
+              "name": "جامعه کارائیب",
+              "otherNames": [
+                "Comunidad del Caribe",
+                "Communauté Caribéenne",
+                "Caribische Gemeenschap"
+              ]
+            }
+          ],
+          "cioc": "GRN",
+          "independent": true
+        }, 
+
+        {
+          "name": "جزیره گوادلوپ",
+          "topLevelDomain": [".gp"],
+          "alpha2Code": "GP",
+          "alpha3Code": "GLP",
+          "callingCodes": ["590"],
+          "capital": "باس-تر",
+          "altSpellings": ["GP", "Gwadloup"],
+          "subregion": "کارائیب",
+          "region": "آمریکا",
+          "population": 400132,
+          "latlng": [16.25, -61.583333],
+          "demonym": "گوادلوپی",
+          "timezones": ["UTC-04:00"],
+          "nativeName": "Guadeloupe",
+          "numericCode": "312",
+          "flags": {
+            "svg": "https://flagcdn.com/gp.svg",
+            "png": "https://flagcdn.com/w320/gp.png"
+          },
+          "currencies": [
+            {
+              "code": "EUR",
+              "name": "یورو",
+              "symbol": "€"
+            }
+          ],
+          "languages": [
+            {
+              "iso639_1": "fr",
+              "iso639_2": "fra",
+              "name": "فرانسوی",
+              "nativeName": "français"
+            }
+          ],
+          "translations": {
+            "br": "Gwadeloup",
+            "pt": "Guadalupe",
+            "nl": "Guadeloupe",
+            "hr": "Gvadalupa",
+            "fa": "جزیره گوادلوپ",
+            "de": "Guadeloupe",
+            "es": "Guadalupe",
+            "fr": "Guadeloupe",
+            "ja": "グアドループ",
+            "it": "Guadeloupa",
+            "hu": "Guadeloupe"
+          },
+          "flag": "https://flagcdn.com/gp.svg",
+          "independent": false
+        },
+        {
+          "name": "گوام",
+          "topLevelDomain": [".gu"],
+          "alpha2Code": "GU",
+          "alpha3Code": "GUM",
+          "callingCodes": ["1"],
+          "capital": "هاگاتنیا",
+          "altSpellings": ["GU", "Guåhån"],
+          "subregion": "میکرونزی",
+          "region": "اقیانوسیه",
+          "population": 168783,
+          "latlng": [13.46666666, 144.78333333],
+          "demonym": "گوامی",
+          "area": 549,
+          "timezones": ["UTC+10:00"],
+          "nativeName": "Guam",
+          "numericCode": "316",
+          "flags": {
+            "svg": "https://flagcdn.com/gu.svg",
+            "png": "https://flagcdn.com/w320/gu.png"
+          },
+          "currencies": [
+            {
+              "code": "USD",
+              "name": "دلار ایالات متحده",
+              "symbol": "$"
+            }
+          ],
+          "languages": [
+            {
+              "iso639_1": "en",
+              "iso639_2": "eng",
+              "name": "انگلیسی",
+              "nativeName": "English"
+            },
+            {
+              "iso639_1": "ch",
+              "iso639_2": "cha",
+              "name": "چامورو",
+              "nativeName": "Chamoru"
+            },
+            {
+              "iso639_1": "es",
+              "iso639_2": "spa",
+              "name": "اسپانیایی",
+              "nativeName": "Español"
+            }
+          ],
+          "translations": {
+            "br": "Guam",
+            "pt": "Guame",
+            "nl": "Guam",
+            "hr": "Guam",
+            "fa": "گوام",
+            "de": "Guam",
+            "es": "Guam",
+            "fr": "Guam",
+            "ja": "グアム",
+            "it": "Guam",
+            "hu": "Guam"
+          },
+          "flag": "https://flagcdn.com/gu.svg",
+          "cioc": "GUM",
+          "independent": false
+        },
+        {
+          "name": "گواتمالا",
+          "topLevelDomain": [".gt"],
+          "alpha2Code": "GT",
+          "alpha3Code": "GTM",
+          "callingCodes": ["502"],
+          "capital": "شهر گواتمالا",
+          "altSpellings": ["GT"],
+          "subregion": "آمریکای مرکزی",
+          "region": "آمریکا",
+          "population": 16858333,
+          "latlng": [15.5, -90.25],
+          "demonym": "گواتمالایی",
+          "area": 108889,
+          "gini": 48.3,
+          "timezones": ["UTC-06:00"],
+          "borders": ["بلیز", "السالوادور", "هندوراس", "مکزیک"],
+          "nativeName": "Guatemala",
+          "numericCode": "320",
+          "flags": {
+            "svg": "https://flagcdn.com/gt.svg",
+            "png": "https://flagcdn.com/w320/gt.png"
+          },
+          "currencies": [
+            {
+              "code": "GTQ",
+              "name": "کتزال گواتمالا",
+              "symbol": "Q"
+            }
+          ],
+          "languages": [
+            {
+              "iso639_1": "es",
+              "iso639_2": "spa",
+              "name": "اسپانیایی",
+              "nativeName": "Español"
+            }
+          ],
+          "translations": {
+            "br": "Guatemala",
+            "pt": "Guatemala",
+            "nl": "Guatemala",
+            "hr": "Gvatemala",
+            "fa": "گواتمالا",
+            "de": "Guatemala",
+            "es": "Guatemala",
+            "fr": "Guatemala",
+            "ja": "グアテマラ",
+            "it": "Guatemala",
+            "hu": "Guatemala"
+          },
+          "flag": "https://flagcdn.com/gt.svg",
+          "regionalBlocs": [
+            {
+              "acronym": "CAIS",
+              "name": "سیستم یکپارچه‌سازی آمریکای مرکزی",
+              "otherAcronyms": ["SICA"],
+              "otherNames": ["Sistema de la Integración Centroamericana"]
+            }
+          ],
+          "cioc": "GUA",
+          "independent": true
+        },
+        {
+          "name": "گرنزی",
+          "topLevelDomain": [".gg"],
+          "alpha2Code": "GG",
+          "alpha3Code": "GGY",
+          "callingCodes": ["44"],
+          "capital": "سن پیتر پورت",
+          "altSpellings": ["GG", "Bailiwick of Guernsey", "Bailliage de Guernesey"],
+          "subregion": "شمال اروپا",
+          "region": "اروپا",
+          "population": 62999,
+          "latlng": [49.46666666, -2.58333333],
+          "demonym": "جزیره کانال",
+          "area": 78,
+          "timezones": ["UTC+00:00"],
+          "nativeName": "Guernsey",
+          "numericCode": "831",
+          "flags": {
+            "svg": "https://flagcdn.com/gg.svg",
+            "png": "https://flagcdn.com/w320/gg.png"
+          },
+          "currencies": [
+            {
+              "code": "GBP",
+              "name": "پوند بریتانیا",
+              "symbol": "£"
+            },
+            {
+              "code": "GGP",
+              "name": "پوند گرنزی",
+              "symbol": "£"
+            }
+          ],
+          "languages": [
+            {
+              "iso639_1": "en",
+              "iso639_2": "eng",
+              "name": "انگلیسی",
+              "nativeName": "English"
+            },
+            {
+              "iso639_1": "fr",
+              "iso639_2": "fra",
+              "name": "فرانسوی",
+              "nativeName": "français"
+            }
+          ],
+          "translations": {
+            "br": "Gwernenez",
+            "pt": "Guernsey",
+            "nl": "Guernsey",
+            "hr": "Guernsey",
+            "fa": "گرنزی",
+            "de": "Guernsey",
+            "es": "Guernsey",
+            "fr": "Guernesey",
+            "ja": "ガーンジー",
+            "it": "Guernsey",
+            "hu": "Guernsey"
+          },
+          "flag": "https://flagcdn.com/gg.svg",
+          "independent": false
+        },
+        {
+          "name": "گینه",
+          "topLevelDomain": [".gn"],
+          "alpha2Code": "GN",
+          "alpha3Code": "GIN",
+          "callingCodes": ["224"],
+          "capital": "کوناگری",
+          "altSpellings": ["GN", "جمهوری گینه", "République de Guinée"],
+          "subregion": "آفریقای غربی",
+          "region": "آفریقا",
+          "population": 13132792,
+          "latlng": [11, -10],
+          "demonym": "گینه‌ای",
+          "area": 245857,
+          "gini": 33.7,
+          "timezones": ["UTC"],
+          "borders": ["ساحل عاج", "گینه بیسائو", "لیبریا", "مالی", "سنگال", "سیرالئون"],
+          "nativeName": "Guinée",
+          "numericCode": "324",
+          "flags": {
+            "svg": "https://flagcdn.com/gn.svg",
+            "png": "https://flagcdn.com/w320/gn.png"
+          },
+          "currencies": [
+            {
+              "code": "GNF",
+              "name": "فرانک گینه",
+              "symbol": "Fr"
+            }
+          ],
+          "languages": [
+            {
+              "iso639_1": "fr",
+              "iso639_2": "fra",
+              "name": "فرانسوی",
+              "nativeName": "français"
+            },
+            {
+              "iso639_1": "ff",
+              "iso639_2": "ful",
+              "name": "فولا",
+              "nativeName": "Fulfulde"
+            }
+          ],
+          "translations": {
+            "br": "Ginea",
+            "pt": "Guiné",
+            "nl": "Guinee",
+            "hr": "Gvineja",
+            "fa": "گینه",
+            "de": "Guinea",
+            "es": "Guinea",
+            "fr": "Guinée",
+            "ja": "ギニア",
+            "it": "Guinea",
+            "hu": "Guinea"
+          },
+          "flag": "https://flagcdn.com/gn.svg",
+          "regionalBlocs": [
+            {
+              "acronym": "AU",
+              "name": "اتحادیه آفریقا",
+              "otherNames": [
+                "الاتحاد الأفريقي",
+                "Union africaine",
+                "União Africana",
+                "Unión Africana",
+                "Umoja wa Afrika"
+              ]
+            }
+          ],
+          "cioc": "GUI",
+          "independent": true
+        }, 
+        {
+          "name": "گینه بیسائو",
+          "topLevelDomain": [".gw"],
+          "alpha2Code": "GW",
+          "alpha3Code": "GNB",
+          "callingCodes": ["245"],
+          "capital": "بیساو",
+          "altSpellings": [
+            "GW",
+            "جمهوری گینه بیسائو",
+            "República da Guiné-Bissau"
+          ],
+          "subregion": "آفریقای غربی",
+          "region": "آفریقا",
+          "population": 1967998,
+          "latlng": [12, -15],
+          "demonym": "گینه بیسائویی",
+          "area": 36125,
+          "gini": 50.7,
+          "timezones": ["UTC"],
+          "borders": ["GIN", "SEN"],
+          "nativeName": "Guiné-Bissau",
+          "numericCode": "624",
+          "flags": {
+            "svg": "https://flagcdn.com/gw.svg",
+            "png": "https://flagcdn.com/w320/gw.png"
+          },
+          "currencies": [
+            {
+              "code": "XOF",
+              "name": "فرانک CFA غرب آفریقا",
+              "symbol": "Fr"
+            }
+          ],
+          "languages": [
+            {
+              "iso639_1": "pt",
+              "iso639_2": "por",
+              "name": "پرتغالی",
+              "nativeName": "Português"
+            }
+          ],
+          "translations": {
+            "br": "Ginea-Bissau",
+            "pt": "Guiné-Bissau",
+            "nl": "Guinee-Bissau",
+            "hr": "Gvineja Bisau",
+            "fa": "گینه بیسائو",
+            "de": "Guinea-Bissau",
+            "es": "Guinea-Bisáu",
+            "fr": "Guinée-Bissau",
+            "ja": "ギニアビサウ",
+            "it": "Guinea-Bissau",
+            "hu": "Bissau-Guinea"
+          },
+          "flag": "https://flagcdn.com/gw.svg",
+          "regionalBlocs": [
+            {
+              "acronym": "AU",
+              "name": "اتحادیه آفریقا",
+              "otherNames": [
+                "الاتحاد الأفريقي",
+                "Union africaine",
+                "União Africana",
+                "Unión Africana",
+                "Umoja wa Afrika"
+              ]
+            }
+          ],
+          "cioc": "GBS",
+          "independent": true
+        },
+        {
+          "name": "گویان",
+          "topLevelDomain": [".gy"],
+          "alpha2Code": "GY",
+          "alpha3Code": "GUY",
+          "callingCodes": ["592"],
+          "capital": "جورج تاون",
+          "altSpellings": ["GY", "جمهوری تعاونی گویان"],
+          "subregion": "آمریکای جنوبی",
+          "region": "آمریکا",
+          "population": 786559,
+          "latlng": [5, -59],
+          "demonym": "گویانی",
+          "area": 214969,
+          "gini": 45.1,
+          "timezones": ["UTC-04:00"],
+          "borders": ["BRA", "SUR", "VEN"],
+          "nativeName": "Guyana",
+          "numericCode": "328",
+          "flags": {
+            "svg": "https://flagcdn.com/gy.svg",
+            "png": "https://flagcdn.com/w320/gy.png"
+          },
+          "currencies": [
+            {
+              "code": "GYD",
+              "name": "دلار گویان",
+              "symbol": "$"
+            }
+          ],
+          "languages": [
+            {
+              "iso639_1": "en",
+              "iso639_2": "eng",
+              "name": "انگلیسی",
+              "nativeName": "English"
+            }
+          ],
+          "translations": {
+            "br": "Guyana",
+            "pt": "Guiana",
+            "nl": "Guyana",
+            "hr": "Gvajana",
+            "fa": "گویان",
+            "de": "Guyana",
+            "es": "Guyana",
+            "fr": "Guyane",
+            "ja": "ガイアナ",
+            "it": "Guyana",
+            "hu": "Guyana"
+          },
+          "flag": "https://flagcdn.com/gy.svg",
+          "regionalBlocs": [
+            {
+              "acronym": "CARICOM",
+              "name": "جامعه کارائیب",
+              "otherNames": [
+                "Comunidad del Caribe",
+                "Communauté Caribéenne",
+                "Caribische Gemeenschap"
+              ]
+            },
+            {
+              "acronym": "USAN",
+              "name": "اتحادیه ملل آمریکای جنوبی",
+              "otherAcronyms": ["UNASUR", "UNASUL", "UZAN"],
+              "otherNames": [
+                "Unión de Naciones Suramericanas",
+                "União de Nações Sul-Americanas",
+                "Unie van Zuid-Amerikaanse Naties",
+                "South American Union"
+              ]
+            }
+          ],
+          "cioc": "GUY",
+          "independent": true
+        },
+        {
+          "name": "هائیتی",
+          "topLevelDomain": [".ht"],
+          "alpha2Code": "HT",
+          "alpha3Code": "HTI",
+          "callingCodes": ["509"],
+          "capital": "پورتو پرنس",
+          "altSpellings": [
+            "HT",
+            "جمهوری هائیتی",
+            "République d'Haïti",
+            "Repiblik Ayiti"
+          ],
+          "subregion": "کارائیب",
+          "region": "آمریکا",
+          "population": 11402533,
+          "latlng": [19, -72.41666666],
+          "demonym": "هائیتیایی",
+          "area": 27750,
+          "gini": 41.1,
+          "timezones": ["UTC-05:00"],
+          "borders": ["DOM"],
+          "nativeName": "Haïti",
+          "numericCode": "332",
+          "flags": {
+            "svg": "https://flagcdn.com/ht.svg",
+            "png": "https://flagcdn.com/w320/ht.png"
+          },
+          "currencies": [
+            {
+              "code": "HTG",
+              "name": "گورد هائیتی",
+              "symbol": "G"
+            }
+          ],
+          "languages": [
+            {
+              "iso639_1": "fr",
+              "iso639_2": "fra",
+              "name": "فرانسوی",
+              "nativeName": "français"
+            },
+            {
+              "iso639_1": "ht",
+              "iso639_2": "hat",
+              "name": "هائیتیایی",
+              "nativeName": "Kreyòl ayisyen"
+            }
+          ],
+          "translations": {
+            "br": "Haiti",
+            "pt": "Haiti",
+            "nl": "Haïti",
+            "hr": "Haiti",
+            "fa": "هائیتی",
+            "de": "Haiti",
+            "es": "Haiti",
+            "fr": "Haïti",
+            "ja": "ハイチ",
+            "it": "Haiti",
+            "hu": "Haiti"
+          },
+          "flag": "https://flagcdn.com/ht.svg",
+          "regionalBlocs": [
+            {
+              "acronym": "CARICOM",
+              "name": "جامعه کارائیب",
+              "otherNames": [
+                "Comunidad del Caribe",
+                "Communauté Caribéenne",
+                "Caribische Gemeenschap"
+              ]
+            }
+          ],
+          "cioc": "HAI",
+          "independent": true
+        },
+        {
+          "name": "جزیره هرد و جزایر مک‌دونالد",
+          "topLevelDomain": [".hm", ".aq"],
+          "alpha2Code": "HM",
+          "alpha3Code": "HMD",
+          "callingCodes": ["672"],
+          "altSpellings": ["HM"],
+          "subregion": "قطب جنوب",
+          "region": "قطب جنوب",
+          "population": 0,
+          "latlng": [-53.1, 72.51666666],
+          "demonym": "ساکن جزیره هرد و مک‌دونالد",
+          "area": 412,
+          "timezones": ["UTC+05:00"],
+          "nativeName": "Heard Island and McDonald Islands",
+          "numericCode": "334",
+          "flags": {
+            "svg": "https://flagcdn.com/hm.svg",
+            "png": "https://flagcdn.com/w320/hm.png"
+          },
+          "currencies": [
+            {
+              "code": "AUD",
+              "name": "دلار استرالیا",
+              "symbol": "$"
+            }
+          ],
+          "languages": [
+            {
+              "iso639_1": "en",
+              "iso639_2": "eng",
+              "name": "انگلیسی",
+              "nativeName": "English"
+            }
+          ],
+          "translations": {
+            "br": "Inizi Heard ha McDonald",
+            "pt": "Ilha Heard e Ilhas McDonald",
+            "nl": "Heard- en McDonaldeilanden",
+            "hr": "Otok Heard i otočje McDonald",
+            "fa": "جزیره هرد و جزایر مک‌دونالد",
+            "de": "Heard und die McDonaldinseln",
+            "es": "Islas Heard y McDonald",
+            "fr": "Îles Heard-et-MacDonald",
+            "ja": "ハード島とマクドナルド諸島",
+            "it": "Isole Heard e McDonald",
+            "hu": "Heard-sziget és McDonald-szigetek"
+          },
+          "flag": "https://flagcdn.com/hm.svg",
+          "independent": false
+        },
+        {
+          "name": "شهر واتیکان",
+          "topLevelDomain": [".va"],
+          "alpha2Code": "VA",
+          "alpha3Code": "VAT",
+          "callingCodes": ["379"],
+          "capital": "شهر واتیکان",
+          "altSpellings": ["واتیکان", "واتیکان"],
+          "subregion": "جنوب اروپا",
+          "region": "اروپا",
+          "population": 451,
+          "latlng": [41.9, 12.45],
+          "demonym": "واتیکانی",
+          "area": 0.44,
+          "timezones": ["UTC+01:00"],
+          "borders": ["ITA"],
+          "nativeName": "Status Civitatis Vaticanae",
+          "numericCode": "336",
+          "flags": {
+            "svg": "https://flagcdn.com/va.svg",
+            "png": "https://flagcdn.com/w320/va.png"
+          },
+          "currencies": [
+            {
+              "code": "EUR",
+              "name": "یورو",
+              "symbol": "€"
+            }
+          ],
+          "languages": [
+            {
+              "iso639_1": "la",
+              "iso639_2": "lat",
+              "name": "لاتین",
+              "nativeName": "latine"
+            },
+            {
+              "iso639_1": "it",
+              "iso639_2": "ita",
+              "name": "ایتالیایی",
+              "nativeName": "Italiano"
+            },
+            {
+              "iso639_1": "fr",
+              "iso639_2": "fra",
+              "name": "فرانسوی",
+              "nativeName": "Français"
+            },
+            {
+              "iso639_1": "de",
+              "iso639_2": "deu",
+              "name": "آلمانی",
+              "nativeName": "Deutsch"
+            }
+          ],
+          "translations": {
+            "br": "Vatikan",
+            "pt": "Vaticano",
+            "nl": "Heilige Stoel",
+            "hr": "Sveta Stolica",
+            "fa": "سریر مقدس",
+            "de": "Heiliger Stuhl",
+            "es": "Santa Sede",
+            "fr": "Saint-Siège",
+            "ja": "聖座",
+            "it": "Santa Sede",
+            "hu": "Vatikán"
+          },
+          "flag": "https://flagcdn.com/va.svg",
+          "independent": true
         }
       
   ]

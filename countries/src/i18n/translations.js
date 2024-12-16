@@ -14,6 +14,11 @@ export const translations = {
     currencies: "Currencies",
     languages: "Languages",
     borderCountries: "Border Countries",
+    sortNameAsc: "Name (A-Z)",
+    sortNameDesc: "Name (Z-A)",
+    sortPopulationAsc: "Population (Low to High)",
+    sortPopulationDesc: "Population (High to Low)",
+
     regions: {
       africa: "Africa",
       americas: "Americas",
@@ -37,6 +42,11 @@ export const translations = {
     currencies: "واحد پول",
     languages: "زبان‌ها",
     borderCountries: "کشورهای همسایه",
+    sortNameAsc: "نام (الف-ی)",
+    sortNameDesc: "نام (ی-الف)",
+    sortPopulationAsc: "جمعیت (کم به زیاد)",
+    sortPopulationDesc: "جمعیت (زیاد به کم)",
+
     regions: {
       africa: "آفریقا",
       americas: "آمریکا",
