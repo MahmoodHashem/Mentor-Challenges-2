@@ -5396,7 +5396,7 @@
         "area": 357114,
         "gini": 31.9,
         "timezones": ["UTC+01:00"],
-        "borders": ["AUT", "BEL", "CZE", "DNK", "	FRA", "LUX", "NLD", "POL", "CHE"],
+        "borders": ["AUT", "BEL", "CZE", "DNK", "FRA", "LUX", "NLD", "POL", "CHE"],
         "nativeName": "Deutschland",
         "numericCode": "276",
         "flags": {
@@ -6016,7 +6016,7 @@
         "area": 245857,
         "gini": 33.7,
         "timezones": ["UTC"],
-        "borders": ["CIV", "GNB", "LBR", "MLI", "	SEN", "SLE"],
+        "borders": ["CIV", "GNB", "LBR", "MLI", "SEN", "SLE"],
         "nativeName": "Guinée",
         "numericCode": "324",
         "flags": {
@@ -8108,8 +8108,6 @@
         "cioc": "LTU",
         "independent": true
       }
-
-
 
     
 ]
