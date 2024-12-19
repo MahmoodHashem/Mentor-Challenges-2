@@ -10200,6 +10200,9 @@
     ],
     "independent": false
   },
+
+
+
   {
     "name": "Morocco",
     "topLevelDomain": [".ma"],
@@ -10621,6 +10624,9 @@
     "cioc": "NEP",
     "independent": true
   },
+
+
+
   {
     "name": "Netherlands",
     "topLevelDomain": [".nl"],
@@ -10930,6 +10936,8 @@
     "cioc": "NIG",
     "independent": true
   },
+
+
   {
     "name": "Nigeria",
     "topLevelDomain": [".ng"],
@@ -11237,6 +11245,9 @@
     "flag": "https://flagcdn.com/mp.svg",
     "independent": false
   },
+
+
+
   {
     "name": "Norway",
     "topLevelDomain": [".no"],
@@ -11582,6 +11593,9 @@
     "cioc": "PLE",
     "independent": true
   },
+
+
+
   {
     "name": "Panama",
     "topLevelDomain": [".pa"],
@@ -11925,6 +11939,9 @@
     "cioc": "PHI",
     "independent": true
   },
+
+
+
   {
     "name": "Pitcairn",
     "topLevelDomain": [".pn"],
@@ -12237,6 +12254,9 @@
     "cioc": "QAT",
     "independent": true
   },
+
+
+
   {
     "name": "Republic of Kosovo",
     "topLevelDomain": [""],
@@ -12606,6 +12626,9 @@
     "cioc": "RWA",
     "independent": true
   },
+
+
+
   {
     "name": "Saint Barthélemy",
     "topLevelDomain": [".bl"],
@@ -12925,6 +12948,9 @@
     "flag": "https://flagcdn.com/mf.svg",
     "independent": false
   },
+
+
+
   {
     "name": "Saint Pierre and Miquelon",
     "topLevelDomain": [".pm"],
@@ -13237,6 +13263,8 @@
     "cioc": "STP",
     "independent": true
   },
+
+
   {
     "name": "Saudi Arabia",
     "topLevelDomain": [".sa"],
@@ -13587,6 +13615,9 @@
     "cioc": "SLE",
     "independent": true
   },
+
+
+
   {
     "name": "Singapore",
     "topLevelDomain": [".sg"],
@@ -13899,6 +13930,8 @@
     "cioc": "SOL",
     "independent": true
   },
+
+
   {
     "name": "Somalia",
     "topLevelDomain": [".so"],
@@ -14290,6 +14323,8 @@
     "cioc": "ESP",
     "independent": true
   },
+
+
   {
     "name": "Sri Lanka",
     "topLevelDomain": [".lk"],
@@ -14646,6 +14681,8 @@
     "flag": "https://flagcdn.com/sj.svg",
     "independent": false
   },
+
+
   {
     "name": "Swaziland",
     "topLevelDomain": [".sz"],
@@ -15001,6 +15038,8 @@
     "cioc": "TPE",
     "independent": true
   },
+
+
   {
     "name": "Tajikistan",
     "topLevelDomain": [".tj"],
@@ -15348,6 +15387,8 @@
     "cioc": "TOG",
     "independent": true
   },
+
+
   {
     "name": "Tokelau",
     "topLevelDomain": [".tk"],
@@ -15666,6 +15707,8 @@
     "cioc": "TUR",
     "independent": true
   },
+
+
   {
     "name": "Turkmenistan",
     "topLevelDomain": [".tm"],
@@ -15967,6 +16010,9 @@
     "cioc": "UKR",
     "independent": true
   },
+
+
+
   {
     "name": "United Arab Emirates",
     "topLevelDomain": [".ae"],
@@ -16313,6 +16359,8 @@
     "cioc": "UZB",
     "independent": false
   },
+
+
   {
     "name": "Vanuatu",
     "topLevelDomain": [".vu"],
@@ -16648,6 +16696,8 @@
     ],
     "independent": false
   },
+
+  
   {
     "name": "Yemen",
     "topLevelDomain": [".ye"],
