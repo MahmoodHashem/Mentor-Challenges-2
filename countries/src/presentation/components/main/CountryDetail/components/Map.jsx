@@ -12,16 +12,16 @@ L.Icon.Default.mergeOptions({
   shadowUrl: markerShadow,
 });
 
-const Map = ({ position, country }) => {
+const Map = ({country }) => {
   return (
-    <MapContainer center={position} zoom={6} style={{  height: "50vh", width: "100%" }}>
+    <MapContainer center={country.latlng} zoom={6} style={{  height: "50vh", width: "100%" }}>
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
-      <Marker position={position}>
+      <Marker position={country.latlng}>
         <Popup>
-          {country}
+          {country.name}
         </Popup>
       </Marker>
     </MapContainer>
