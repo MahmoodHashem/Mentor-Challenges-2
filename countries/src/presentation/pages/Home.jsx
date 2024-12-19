@@ -1,4 +1,4 @@
-import CountryList from '../components/components/main/CountryList/CountryList'
+import CountryList from '../components/main/CountryList/CountryList'
 
 const Home = ({ language }) => {
   return <CountryList language={language} />
