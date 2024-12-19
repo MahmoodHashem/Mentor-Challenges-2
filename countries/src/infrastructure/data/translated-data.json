@@ -5396,7 +5396,7 @@
         "area": 357114,
         "gini": 31.9,
         "timezones": ["UTC+01:00"],
-        "borders": ["AUT", "BEL", "CZE", "DNK", "FRA", "LUX", "NLD", "POL", "CHE"],
+        "borders": ["AUT", "BEL", "CZE", "DNK", "	FRA", "LUX", "NLD", "POL", "CHE"],
         "nativeName": "Deutschland",
         "numericCode": "276",
         "flags": {
@@ -6016,7 +6016,7 @@
         "area": 245857,
         "gini": 33.7,
         "timezones": ["UTC"],
-        "borders": ["CIV", "GNB", "LBR", "MLI", "SEN", "SLE"],
+        "borders": ["CIV", "GNB", "LBR", "MLI", "	SEN", "SLE"],
         "nativeName": "Guinée",
         "numericCode": "324",
         "flags": {
@@ -6421,2039 +6421,1695 @@
         },
         "flag": "https://flagcdn.com/va.svg",
         "independent": true
-      },
-  
-      {
-          "name": "هندوراس",
-          "topLevelDomain": [".hn"],
-          "alpha2Code": "HN",
-          "alpha3Code": "HND",
-          "callingCodes": ["504"],
-          "capital": "تگوسیگالپا",
-          "altSpellings": ["HN", "جمهوری هندوراس", "República de Honduras"],
-          "subregion": "آمریکای مرکزی",
-          "region": "آمریکا",
-          "population": 9904608,
-          "latlng": [15, -86.5],
-          "demonym": "هندوراسی",
-          "area": 112492,
-          "gini": 48.2,
-          "timezones": ["UTC-06:00"],
-          "borders": ["GTM", "SLV", "NIC"],
-          "nativeName": "Honduras",
-          "numericCode": "340",
-          "flags": {
-            "svg": "https://flagcdn.com/hn.svg",
-            "png": "https://flagcdn.com/w320/hn.png"
-          },
-          "currencies": [
-            {
-              "code": "HNL",
-              "name": "لمپیره هندوراس",
-              "symbol": "L"
-            }
-          ],
-          "languages": [
-            {
-              "iso639_1": "es",
-              "iso639_2": "spa",
-              "name": "اسپانیایی",
-              "nativeName": "Español"
-            }
-          ],
-          "translations": {
-            "br": "Honduras",
-            "pt": "Honduras",
-            "nl": "Honduras",
-            "hr": "Honduras",
-            "fa": "هندوراس",
-            "de": "Honduras",
-            "es": "Honduras",
-            "fr": "Honduras",
-            "ja": "ホンジュラス",
-            "it": "Honduras",
-            "hu": "Honduras"
-          },
-          "flag": "https://flagcdn.com/hn.svg",
-          "regionalBlocs": [
-            {
-              "acronym": "CAIS",
-              "name": "سیستم یکپارچه‌سازی آمریکای مرکزی",
-              "otherAcronyms": ["SICA"],
-              "otherNames": ["Sistema de la Integración Centroamericana"]
-            }
-          ],
-          "cioc": "HON",
-          "independent": true
-        },
-        {
-          "name": "مجارستان",
-          "topLevelDomain": [".hu"],
-          "alpha2Code": "HU",
-          "alpha3Code": "HUN",
-          "callingCodes": ["36"],
-          "capital": "بوداپست",
-          "altSpellings": ["HU"],
-          "subregion": "اروپای مرکزی",
-          "region": "اروپا",
-          "population": 9749763,
-          "latlng": [47, 20],
-          "demonym": "مجارستانی",
-          "area": 93028,
-          "gini": 29.6,
-          "timezones": ["UTC+01:00"],
-          "borders": ["AUT", "HRV", "ROU", "SRB", "SVK", "SVN", "UKR"],
-          "nativeName": "Magyarország",
-          "numericCode": "348",
-          "flags": {
-            "svg": "https://flagcdn.com/hu.svg",
-            "png": "https://flagcdn.com/w320/hu.png"
-          },
-          "currencies": [
-            {
-              "code": "HUF",
-              "name": "فورینت مجارستان",
-              "symbol": "Ft"
-            }
-          ],
-          "languages": [
-            {
-              "iso639_1": "hu",
-              "iso639_2": "hun",
-              "name": "مجارستانی",
-              "nativeName": "magyar"
-            }
-          ],
-          "translations": {
-            "br": "Hungaria",
-            "pt": "Hungria",
-            "nl": "Hongarije",
-            "hr": "Mađarska",
-            "fa": "مجارستان",
-            "de": "Ungarn",
-            "es": "Hungría",
-            "fr": "Hongrie",
-            "ja": "ハンガリー",
-            "it": "Ungheria",
-            "hu": "Magyarország"
-          },
-          "flag": "https://flagcdn.com/hu.svg",
-          "regionalBlocs": [
-            {
-              "acronym": "EU",
-              "name": "اتحادیه اروپا"
-            }
-          ],
-          "cioc": "HUN",
-          "independent": true
-        },
-        {
-          "name": "هنگ‌کنگ",
-          "topLevelDomain": [".hk"],
-          "alpha2Code": "HK",
-          "alpha3Code": "HKG",
-          "callingCodes": ["852"],
-          "capital": "شهر ویکتوریا",
-          "altSpellings": ["HK", "香港"],
-          "subregion": "شرق آسیا",
-          "region": "آسیا",
-          "population": 7481800,
-          "latlng": [22.25, 114.16666666],
-          "demonym": "چینی",
-          "area": 1104,
-          "timezones": ["UTC+08:00"],
-          "borders": ["CHN"],
-          "nativeName": "香港",
-          "numericCode": "344",
-          "flags": {
-            "svg": "https://flagcdn.com/hk.svg",
-            "png": "https://flagcdn.com/w320/hk.png"
-          },
-          "currencies": [
-            {
-              "code": "HKD",
-              "name": "دلار هنگ‌کنگ",
-              "symbol": "$"
-            }
-          ],
-          "languages": [
-            {
-              "iso639_1": "en",
-              "iso639_2": "eng",
-              "name": "انگلیسی",
-              "nativeName": "English"
-            },
-            {
-              "iso639_1": "zh",
-              "iso639_2": "zho",
-              "name": "چینی",
-              "nativeName": "中文 (Zhōngwén)"
-            }
-          ],
-          "translations": {
-            "br": "Hong Kong",
-            "pt": "Hong Kong",
-            "nl": "Hongkong",
-            "hr": "Hong Kong",
-            "fa": "هنگ‌کنگ",
-            "de": "Hong Kong",
-            "es": "Hong Kong",
-            "fr": "Hong Kong",
-            "ja": "香港",
-            "it": "Hong Kong",
-            "hu": "Hong Kong"
-          },
-          "flag": "https://flagcdn.com/hk.svg",
-          "cioc": "HKG",
-          "independent": false
-        },
-        {
-          "name": "ایسلند",
-          "topLevelDomain": [".is"],
-          "alpha2Code": "IS",
-          "alpha3Code": "ISL",
-          "callingCodes": ["354"],
-          "capital": "رِیکیاویک",
-          "altSpellings": ["IS", "Island", "جمهوری ایسلند", "Lýðveldið Ísland"],
-          "subregion": "شمال اروپا",
-          "region": "اروپا",
-          "population": 366425,
-          "latlng": [65, -18],
-          "demonym": "ایسلندی",
-          "area": 103000,
-          "gini": 26.1,
-          "timezones": ["UTC"],
-          "nativeName": "Ísland",
-          "numericCode": "352",
-          "flags": {
-            "svg": "https://flagcdn.com/is.svg",
-            "png": "https://flagcdn.com/w320/is.png"
-          },
-          "currencies": [
-            {
-              "code": "ISK",
-              "name": "کرونای ایسلند",
-              "symbol": "kr"
-            }
-          ],
-          "languages": [
-            {
-              "iso639_1": "is",
-              "iso639_2": "isl",
-              "name": "ایسلندی",
-              "nativeName": "Íslenska"
-            }
-          ],
-          "translations": {
-            "br": "Island",
-            "pt": "Islândia",
-            "nl": "IJsland",
-            "hr": "Island",
-            "fa": "ایسلند",
-            "de": "Island",
-            "es": "Islandia",
-            "fr": "Islande",
-            "ja": "アイスランド",
-            "it": "Islanda",
-            "hu": "Izland"
-          },
-          "flag": "https://flagcdn.com/is.svg",
-          "regionalBlocs": [
-            {
-              "acronym": "EFTA",
-              "name": "اتحادیه تجارت آزاد اروپا"
-            }
-          ],
-          "cioc": "ISL",
-          "independent": true
-        },
-        {
-          "name": "هند",
-          "topLevelDomain": [".in"],
-          "alpha2Code": "IN",
-          "alpha3Code": "IND",
-          "callingCodes": ["91"],
-          "capital": "دهلی نو",
-          "altSpellings": ["IN", "Bhārat", "جمهوری هند", "Bharat Ganrajya"],
-          "subregion": "جنوب آسیا",
-          "region": "آسیا",
-          "population": 1380004385,
-          "latlng": [20, 77],
-          "demonym": "هندی",
-          "area": 3287590,
-          "gini": 35.7,
-          "timezones": ["UTC+05:30"],
-          "borders": ["AFG", "BGD", "BTN", "MMR", "CHN", "NPL", "PAK", "LKA"],
-          "nativeName": "भारत",
-          "numericCode": "356",
-          "flags": {
-            "svg": "https://flagcdn.com/in.svg",
-            "png": "https://flagcdn.com/w320/in.png"
-          },
-          "currencies": [
-            {
-              "code": "INR",
-              "name": "روپیه هند",
-              "symbol": "₹"
-            }
-          ],
-          "languages": [
-            {
-              "iso639_1": "hi",
-              "iso639_2": "hin",
-              "name": "هندی",
-              "nativeName": "हिन्दी"
-            },
-            {
-              "iso639_1": "en",
-              "iso639_2": "eng",
-              "name": "انگلیسی",
-              "nativeName": "English"
-            }
-          ],
-          "translations": {
-            "br": "India",
-            "pt": "Índia",
-            "nl": "India",
-            "hr": "Indija",
-            "fa": "هند",
-            "de": "Indien",
-            "es": "India",
-            "fr": "Inde",
-            "ja": "インド",
-            "it": "India",
-            "hu": "India"
-          },
-          "flag": "https://flagcdn.com/in.svg",
-          "regionalBlocs": [
-            {
-              "acronym": "SAARC",
-              "name": "اتحادیه همکاری‌های منطقه‌ای جنوب آسیا"
-            }
-          ],
-          "cioc": "IND",
-          "independent": true
-        }, 
-        {
-          "name": "اندونزی",
-          "topLevelDomain": [".id"],
-          "alpha2Code": "ID",
-          "alpha3Code": "IDN",
-          "callingCodes": ["62"],
-          "capital": "جاکارتا",
-          "altSpellings": ["ID", "جمهوری اندونزی", "Republik Indonesia"],
-          "subregion": "جنوب شرقی آسیا",
-          "region": "آسیا",
-          "population": 273523621,
-          "latlng": [-5, 120],
-          "demonym": "اندونزیایی",
-          "area": 1904569,
-          "gini": 38.2,
-          "timezones": ["UTC+07:00", "UTC+08:00", "UTC+09:00"],
-          "borders": ["TLS", "MYS", "PNG"],
-          "nativeName": "Indonesia",
-          "numericCode": "360",
-          "flags": {
-            "svg": "https://flagcdn.com/id.svg",
-            "png": "https://flagcdn.com/w320/id.png"
-          },
-          "currencies": [
-            {
-              "code": "IDR",
-              "name": "روپیه اندونزی",
-              "symbol": "Rp"
-            }
-          ],
-          "languages": [
-            {
-              "iso639_1": "id",
-              "iso639_2": "ind",
-              "name": "اندونزیایی",
-              "nativeName": "Bahasa Indonesia"
-            }
-          ],
-          "translations": {
-            "br": "Indonezia",
-            "pt": "Indonésia",
-            "nl": "Indonesië",
-            "hr": "Indonezija",
-            "fa": "اندونزی",
-            "de": "Indonesien",
-            "es": "Indonesia",
-            "fr": "Indonésie",
-            "ja": "インドネシア",
-            "it": "Indonesia",
-            "hu": "Indonézia"
-          },
-          "flag": "https://flagcdn.com/id.svg",
-          "regionalBlocs": [
-            {
-              "acronym": "ASEAN",
-              "name": "اتحادیه کشورهای جنوب شرق آسیا"
-            }
-          ],
-          "cioc": "INA",
-          "independent": true
-        },
-        {
-          "name": "ساحل عاج",
-          "topLevelDomain": [".ci"],
-          "alpha2Code": "CI",
-          "alpha3Code": "CIV",
-          "callingCodes": ["225"],
-          "capital": "یاموسوکرو",
-          "altSpellings": [
-            "CI",
-            "ساحل عاج",
-            "جمهوری ساحل عاج",
-            "République de Côte d'Ivoire"
-          ],
-          "subregion": "غرب آفریقا",
-          "region": "آفریقا",
-          "population": 26378275,
-          "latlng": [8, -5],
-          "demonym": "عاجی",
-          "area": 322463,
-          "gini": 41.5,
-          "timezones": ["UTC"],
-          "borders": ["BFA", "GHA", "GIN", "LBR", "MLI"],
-          "nativeName": "Côte d'Ivoire",
-          "numericCode": "384",
-          "flags": {
-            "svg": "https://flagcdn.com/ci.svg",
-            "png": "https://flagcdn.com/w320/ci.png"
-          },
-          "currencies": [
-            {
-              "code": "XOF",
-              "name": "فرانک CFA غرب آفریقا",
-              "symbol": "Fr"
-            }
-          ],
-          "languages": [
-            {
-              "iso639_1": "fr",
-              "iso639_2": "fra",
-              "name": "فرانسوی",
-              "nativeName": "français"
-            }
-          ],
-          "translations": {
-            "br": "Aod an Olifant",
-            "pt": "Costa do Marfim",
-            "nl": "Ivoorkust",
-            "hr": "Obala Bjelokosti",
-            "fa": "ساحل عاج",
-            "de": "Elfenbeinküste",
-            "es": "Costa de Marfil",
-            "fr": "Côte d'Ivoire",
-            "ja": "コートジボワール",
-            "it": "Costa D'Avorio",
-            "hu": "Elefántcsontpart"
-          },
-          "flag": "https://flagcdn.com/ci.svg",
-          "regionalBlocs": [
-            {
-              "acronym": "AU",
-              "name": "اتحادیه آفریقا",
-              "otherNames": [
-                "الاتحاد الأفريقي",
-                "Union africaine",
-                "União Africana",
-                "Unión Africana",
-                "Umoja wa Afrika"
-              ]
-            }
-          ],
-          "cioc": "CIV",
-          "independent": true
-        },
-        {
-          "name": "ایران (جمهوری اسلامی)",
-          "topLevelDomain": [".ir"],
-          "alpha2Code": "IR",
-          "alpha3Code": "IRN",
-          "callingCodes": ["98"],
-          "capital": "تهران",
-          "altSpellings": [
-            "IR",
-            "جمهوری اسلامی ایران",
-            "Jomhuri-ye Eslāmi-ye Irān"
-          ],
-          "subregion": "جنوب آسیا",
-          "region": "آسیا",
-          "population": 83992953,
-          "latlng": [32, 53],
-          "demonym": "ایرانی",
-          "area": 1648195,
-          "gini": 42,
-          "timezones": ["UTC+03:30"],
-          "borders": ["AFG", "ARM", "AZE", "IRQ", "PAK", "TUR", "TKM"],
-          "nativeName": "ایران",
-          "numericCode": "364",
-          "flags": {
-            "svg": "https://flagcdn.com/ir.svg",
-            "png": "https://flagcdn.com/w320/ir.png"
-          },
-          "currencies": [
-            {
-              "code": "IRR",
-              "name": "ریال ایران",
-              "symbol": "﷼"
-            }
-          ],
-          "languages": [
-            {
-              "iso639_1": "fa",
-              "iso639_2": "fas",
-              "name": "فارسی",
-              "nativeName": "فارسی"
-            }
-          ],
-          "translations": {
-            "br": "Iran",
-            "pt": "Irão",
-            "nl": "Iran",
-            "hr": "Iran",
-            "fa": "ایران",
-            "de": "Iran",
-            "es": "Iran",
-            "fr": "Iran",
-            "ja": "イラン・イスラム共和国",
-            "it": "Iran (Islamic Republic of)",
-            "hu": "Irán"
-          },
-          "flag": "https://flagcdn.com/ir.svg",
-          "cioc": "IRI",
-          "independent": true
-        },
-        {
-          "name": "عراق",
-          "topLevelDomain": [".iq"],
-          "alpha2Code": "IQ",
-          "alpha3Code": "IRQ",
-          "callingCodes": ["964"],
-          "capital": "بغداد",
-          "altSpellings": ["IQ", "جمهوری عراق", "Jumhūriyyat al-‘Irāq"],
-          "subregion": "غرب آسیا",
-          "region": "آسیا",
-          "population": 40222503,
-          "latlng": [33, 44],
-          "demonym": "عراقی",
-          "area": 438317,
-          "gini": 29.5,
-          "timezones": ["UTC+03:00"],
-          "borders": ["IRN", "JOR", "KWT", "SAU", "SYR", "TUR"],
-          "nativeName": "العراق",
-          "numericCode": "368",
-          "flags": {
-            "svg": "https://flagcdn.com/iq.svg",
-            "png": "https://flagcdn.com/w320/iq.png"
-          },
-          "currencies": [
-            {
-              "code": "IQD",
-              "name": "دینار عراقی",
-              "symbol": "ع.د"
-            }
-          ],
-          "languages": [
-            {
-              "iso639_1": "ar",
-              "iso639_2": "ara",
-              "name": "عربی",
-              "nativeName": "العربية"
-            },
-            {
-              "iso639_1": "ku",
-              "iso639_2": "kur",
-              "name": "کردی",
-              "nativeName": "Kurdî"
-            }
-          ],
-          "translations": {
-            "br": "Irak",
-            "pt": "Iraque",
-            "nl": "Irak",
-            "hr": "Irak",
-            "fa": "عراق",
-            "de": "Irak",
-            "es": "Irak",
-            "fr": "Irak",
-            "ja": "イラク",
-            "it": "Iraq",
-            "hu": "Irak"
-          },
-          "flag": "https://flagcdn.com/iq.svg",
-          "regionalBlocs": [
-            {
-              "acronym": "AL",
-              "name": "اتحادیه عرب",
-              "otherNames": [
-                "جامعة الدول العربية",
-                "Jāmiʻat ad-Duwal al-ʻArabīyah",
-                "League of Arab States"
-              ]
-            }
-          ],
-          "cioc": "IRQ",
-          "independent": true
-        },
-        {
-          "name": "ایرلند",
-          "topLevelDomain": [".ie"],
-          "alpha2Code": "IE",
-          "alpha3Code": "IRL",
-          "callingCodes": ["353"],
-          "capital": "دوبلین",
-          "altSpellings": [
-            "IE",
-            "Éire",
-            "جمهوری ایرلند",
-            "Poblacht na hÉireann"
-          ],
-          "subregion": "شمال اروپا",
-          "region": "اروپا",
-          "population": 4994724,
-          "latlng": [53, -8],
-          "demonym": "ایرلندی",
-          "area": 70273,
-          "gini": 31.4,
-          "timezones": ["UTC"],
-          "borders": ["GBR"],
-          "nativeName": "Éire",
-          "numericCode": "372",
-          "flags": {
-            "svg": "https://flagcdn.com/ie.svg",
-            "png": "https://flagcdn.com/w320/ie.png"
-          },
-          "currencies": [
-            {
-              "code": "EUR",
-              "name": "یورو",
-              "symbol": "€"
-            }
-          ],
-          "languages": [
-            {
-              "iso639_1": "ga",
-              "iso639_2": "gle",
-              "name": "ایرلندی",
-              "nativeName": "Gaeilge"
-            },
-            {
-              "iso639_1": "en",
-              "iso639_2": "eng",
-              "name": "انگلیسی",
-              "nativeName": "English"
-            }
-          ],
-          "translations": {
-            "br": "Iwerzhon",
-            "pt": "Irlanda",
-            "nl": "Ierland",
-            "hr": "Irska",
-            "fa": "ایرلند",
-            "de": "Irland",
-            "es": "Irlanda",
-            "fr": "Irlande",
-            "ja": "アイルランド",
-            "it": "Irlanda",
-            "hu": "Írország"
-          },
-          "flag": "https://flagcdn.com/ie.svg",
-          "regionalBlocs": [
-            {
-              "acronym": "EU",
-              "name": "اتحادیه اروپا"
-            }
-          ],
-          "cioc": "IRL",
-          "independent": true
-        },
-  
-        {
-          "name": "اندونزی",
-          "topLevelDomain": [".id"],
-          "alpha2Code": "ID",
-          "alpha3Code": "IDN",
-          "callingCodes": ["62"],
-          "capital": "جاکارتا",
-          "altSpellings": ["ID", "جمهوری اندونزی", "Republik Indonesia"],
-          "subregion": "جنوب شرقی آسیا",
-          "region": "آسیا",
-          "population": 273523621,
-          "latlng": [-5, 120],
-          "demonym": "اندونزیایی",
-          "area": 1904569,
-          "gini": 38.2,
-          "timezones": ["UTC+07:00", "UTC+08:00", "UTC+09:00"],
-          "borders": ["TLS", "MYS", "PNG"],
-          "nativeName": "Indonesia",
-          "numericCode": "360",
-          "flags": {
-            "svg": "https://flagcdn.com/id.svg",
-            "png": "https://flagcdn.com/w320/id.png"
-          },
-          "currencies": [
-            {
-              "code": "IDR",
-              "name": "روپیه اندونزی",
-              "symbol": "Rp"
-            }
-          ],
-          "languages": [
-            {
-              "iso639_1": "id",
-              "iso639_2": "ind",
-              "name": "اندونزیایی",
-              "nativeName": "Bahasa Indonesia"
-            }
-          ],
-          "translations": {
-            "br": "Indonezia",
-            "pt": "Indonésia",
-            "nl": "Indonesië",
-            "hr": "Indonezija",
-            "fa": "اندونزی",
-            "de": "Indonesien",
-            "es": "Indonesia",
-            "fr": "Indonésie",
-            "ja": "インドネシア",
-            "it": "Indonesia",
-            "hu": "Indonézia"
-          },
-          "flag": "https://flagcdn.com/id.svg",
-          "regionalBlocs": [
-            {
-              "acronym": "ASEAN",
-              "name": "اتحادیه کشورهای جنوب شرق آسیا"
-            }
-          ],
-          "cioc": "INA",
-          "independent": true
-        },
-        {
-          "name": "ساحل عاج",
-          "topLevelDomain": [".ci"],
-          "alpha2Code": "CI",
-          "alpha3Code": "CIV",
-          "callingCodes": ["225"],
-          "capital": "یاموسوکرو",
-          "altSpellings": [
-            "CI",
-            "ساحل عاج",
-            "جمهوری ساحل عاج",
-            "République de Côte d'Ivoire"
-          ],
-          "subregion": "غرب آفریقا",
-          "region": "آفریقا",
-          "population": 26378275,
-          "latlng": [8, -5],
-          "demonym": "عاجی",
-          "area": 322463,
-          "gini": 41.5,
-          "timezones": ["UTC"],
-          "borders": ["BFA", "GHA", "GIN", "LBR", "MLI"],
-          "nativeName": "Côte d'Ivoire",
-          "numericCode": "384",
-          "flags": {
-            "svg": "https://flagcdn.com/ci.svg",
-            "png": "https://flagcdn.com/w320/ci.png"
-          },
-          "currencies": [
-            {
-              "code": "XOF",
-              "name": "فرانک CFA غرب آفریقا",
-              "symbol": "Fr"
-            }
-          ],
-          "languages": [
-            {
-              "iso639_1": "fr",
-              "iso639_2": "fra",
-              "name": "فرانسوی",
-              "nativeName": "français"
-            }
-          ],
-          "translations": {
-            "br": "Aod an Olifant",
-            "pt": "Costa do Marfim",
-            "nl": "Ivoorkust",
-            "hr": "Obala Bjelokosti",
-            "fa": "ساحل عاج",
-            "de": "Elfenbeinküste",
-            "es": "Costa de Marfil",
-            "fr": "Côte d'Ivoire",
-            "ja": "コートジボワール",
-            "it": "Costa D'Avorio",
-            "hu": "Elefántcsontpart"
-          },
-          "flag": "https://flagcdn.com/ci.svg",
-          "regionalBlocs": [
-            {
-              "acronym": "AU",
-              "name": "اتحادیه آفریقا",
-              "otherNames": [
-                "الاتحاد الأفريقي",
-                "Union africaine",
-                "União Africana",
-                "Unión Africana",
-                "Umoja wa Afrika"
-              ]
-            }
-          ],
-          "cioc": "CIV",
-          "independent": true
-        },
-        {
-          "name": "ایران (جمهوری اسلامی)",
-          "topLevelDomain": [".ir"],
-          "alpha2Code": "IR",
-          "alpha3Code": "IRN",
-          "callingCodes": ["98"],
-          "capital": "تهران",
-          "altSpellings": [
-            "IR",
-            "جمهوری اسلامی ایران",
-            "Jomhuri-ye Eslāmi-ye Irān"
-          ],
-          "subregion": "جنوب آسیا",
-          "region": "آسیا",
-          "population": 83992953,
-          "latlng": [32, 53],
-          "demonym": "ایرانی",
-          "area": 1648195,
-          "gini": 42,
-          "timezones": ["UTC+03:30"],
-          "borders": ["AFG", "ARM", "AZE", "IRQ", "PAK", "TUR", "TKM"],
-          "nativeName": "ایران",
-          "numericCode": "364",
-          "flags": {
-            "svg": "https://flagcdn.com/ir.svg",
-            "png": "https://flagcdn.com/w320/ir.png"
-          },
-          "currencies": [
-            {
-              "code": "IRR",
-              "name": "ریال ایران",
-              "symbol": "﷼"
-            }
-          ],
-          "languages": [
-            {
-              "iso639_1": "fa",
-              "iso639_2": "fas",
-              "name": "فارسی",
-              "nativeName": "فارسی"
-            }
-          ],
-          "translations": {
-            "br": "Iran",
-            "pt": "Irão",
-            "nl": "Iran",
-            "hr": "Iran",
-            "fa": "ایران",
-            "de": "Iran",
-            "es": "Iran",
-            "fr": "Iran",
-            "ja": "イラン・イスラム共和国",
-            "it": "Iran (Islamic Republic of)",
-            "hu": "Irán"
-          },
-          "flag": "https://flagcdn.com/ir.svg",
-          "cioc": "IRI",
-          "independent": true
-        },
-        {
-          "name": "عراق",
-          "topLevelDomain": [".iq"],
-          "alpha2Code": "IQ",
-          "alpha3Code": "IRQ",
-          "callingCodes": ["964"],
-          "capital": "بغداد",
-          "altSpellings": ["IQ", "جمهوری عراق", "Jumhūriyyat al-‘Irāq"],
-          "subregion": "غرب آسیا",
-          "region": "آسیا",
-          "population": 40222503,
-          "latlng": [33, 44],
-          "demonym": "عراقی",
-          "area": 438317,
-          "gini": 29.5,
-          "timezones": ["UTC+03:00"],
-          "borders": ["IRN", "JOR", "KWT", "SAU", "SYR", "TUR"],
-          "nativeName": "العراق",
-          "numericCode": "368",
-          "flags": {
-            "svg": "https://flagcdn.com/iq.svg",
-            "png": "https://flagcdn.com/w320/iq.png"
-          },
-          "currencies": [
-            {
-              "code": "IQD",
-              "name": "دینار عراقی",
-              "symbol": "ع.د"
-            }
-          ],
-          "languages": [
-            {
-              "iso639_1": "ar",
-              "iso639_2": "ara",
-              "name": "عربی",
-              "nativeName": "العربية"
-            },
-            {
-              "iso639_1": "ku",
-              "iso639_2": "kur",
-              "name": "کردی",
-              "nativeName": "Kurdî"
-            }
-          ],
-          "translations": {
-            "br": "Irak",
-            "pt": "Iraque",
-            "nl": "Irak",
-            "hr": "Irak",
-            "fa": "عراق",
-            "de": "Irak",
-            "es": "Irak",
-            "fr": "Irak",
-            "ja": "イラク",
-            "it": "Iraq",
-            "hu": "Irak"
-          },
-          "flag": "https://flagcdn.com/iq.svg",
-          "regionalBlocs": [
-            {
-              "acronym": "AL",
-              "name": "اتحادیه عرب",
-              "otherNames": [
-                "جامعة الدول العربية",
-                "Jāmiʻat ad-Duwal al-ʻArabīyah",
-                "League of Arab States"
-              ]
-            }
-          ],
-          "cioc": "IRQ",
-          "independent": true
-        },
-        {
-          "name": "ایرلند",
-          "topLevelDomain": [".ie"],
-          "alpha2Code": "IE",
-          "alpha3Code": "IRL",
-          "callingCodes": ["353"],
-          "capital": "دوبلین",
-          "altSpellings": [
-            "IE",
-            "Éire",
-            "جمهوری ایرلند",
-            "Poblacht na hÉireann"
-          ],
-          "subregion": "شمال اروپا",
-          "region": "اروپا",
-          "population": 4994724,
-          "latlng": [53, -8],
-          "demonym": "ایرلندی",
-          "area": 70273,
-          "gini": 31.4,
-          "timezones": ["UTC"],
-          "borders": ["GBR"],
-          "nativeName": "Éire",
-          "numericCode": "372",
-          "flags": {
-            "svg": "https://flagcdn.com/ie.svg",
-            "png": "https://flagcdn.com/w320/ie.png"
-          },
-          "currencies": [
-            {
-              "code": "EUR",
-              "name": "یورو",
-              "symbol": "€"
-            }
-          ],
-          "languages": [
-            {
-              "iso639_1": "ga",
-              "iso639_2": "gle",
-              "name": "ایرلندی",
-              "nativeName": "Gaeilge"
-            },
-            {
-              "iso639_1": "en",
-              "iso639_2": "eng",
-              "name": "انگلیسی",
-              "nativeName": "English"
-            }
-          ],
-          "translations": {
-            "br": "Iwerzhon",
-            "pt": "Irlanda",
-            "nl": "Ierland",
-            "hr": "Irska",
-            "fa": "ایرلند",
-            "de": "Irland",
-            "es": "Irlanda",
-            "fr": "Irlande",
-            "ja": "アイルランド",
-            "it": "Irlanda",
-            "hu": "Írország"
-          },
-          "flag": "https://flagcdn.com/ie.svg",
-          "regionalBlocs": [
-            {
-              "acronym": "EU",
-              "name": "اتحادیه اروپا"
-            }
-          ]
-        },
+      }, 
 
-        {
-          "name": "جرزی",
-          "topLevelDomain": [".je"],
-          "alpha2Code": "JE",
-          "alpha3Code": "JEY",
-          "callingCodes": ["44"],
-          "capital": "سن هلیر",
-          "altSpellings": [
-            "JE",
-            "بایلیویک جرزی",
-            "Bailliage de Jersey",
-            "Bailliage dé Jèrri"
-          ],
-          "subregion": "شمال اروپا",
-          "region": "اروپا",
-          "population": 100800,
-          "latlng": [49.25, -2.16666666],
-          "demonym": "جزیره‌نشین کانال",
-          "area": 116,
-          "timezones": ["UTC+01:00"],
-          "nativeName": "Jersey",
-          "numericCode": "832",
-          "flags": {
-            "svg": "https://flagcdn.com/je.svg",
-            "png": "https://flagcdn.com/w320/je.png"
-          },
-          "currencies": [
-            {
-              "code": "GBP",
-              "name": "پوند بریتانیا",
-              "symbol": "£"
-            },
-            {
-              "code": "JEP[G]",
-              "name": "پوند جرزی",
-              "symbol": "£"
-            }
-          ],
-          "languages": [
-            {
-              "iso639_1": "en",
-              "iso639_2": "eng",
-              "name": "انگلیسی",
-              "nativeName": "English"
-            },
-            {
-              "iso639_1": "fr",
-              "iso639_2": "fra",
-              "name": "فرانسوی",
-              "nativeName": "français"
-            }
-          ],
-          "translations": {
-            "br": "Jerzenez",
-            "pt": "Jersey",
-            "nl": "Jersey",
-            "hr": "Jersey",
-            "fa": "جرزی",
-            "de": "Jersey",
-            "es": "Jersey",
-            "fr": "Jersey",
-            "ja": "ジャージー",
-            "it": "Isola di Jersey",
-            "hu": "Jersey"
-          },
-          "flag": "https://flagcdn.com/je.svg",
-          "independent": false
-        },
-        {
-          "name": "اردن",
-          "topLevelDomain": [".jo"],
-          "alpha2Code": "JO",
-          "alpha3Code": "JOR",
-          "callingCodes": ["962"],
-          "capital": "عمان",
-          "altSpellings": [
-            "JO",
-            "پادشاهی هاشمی اردن",
-            "al-Mamlakah al-Urdunīyah al-Hāshimīyah"
-          ],
-          "subregion": "غرب آسیا",
-          "region": "آسیا",
-          "population": 10203140,
-          "latlng": [31, 36],
-          "demonym": "اردنی",
-          "area": 89342,
-          "gini": 33.7,
-          "timezones": ["UTC+03:00"],
-          "borders": ["IRQ", "ISR", "SAU", "SYR"],
-          "nativeName": "الأردن",
-          "numericCode": "400",
-          "flags": {
-            "svg": "https://flagcdn.com/jo.svg",
-            "png": "https://flagcdn.com/w320/jo.png"
-          },
-          "currencies": [
-            {
-              "code": "JOD",
-              "name": "دینار اردنی",
-              "symbol": "د.ا"
-            }
-          ],
-          "languages": [
-            {
-              "iso639_1": "ar",
-              "iso639_2": "ara",
-              "name": "عربی",
-              "nativeName": "العربية"
-            }
-          ],
-          "translations": {
-            "br": "Jordania",
-            "pt": "Jordânia",
-            "nl": "Jordanië",
-            "hr": "Jordan",
-            "fa": "اردن",
-            "de": "Jordanien",
-            "es": "Jordania",
-            "fr": "Jordanie",
-            "ja": "ヨルダン",
-            "it": "Giordania",
-            "hu": "Jordánia"
-          },
-          "flag": "https://flagcdn.com/jo.svg",
-          "regionalBlocs": [
-            {
-              "acronym": "AL",
-              "name": "اتحادیه عرب",
-              "otherNames": [
-                "جامعة الدول العربية",
-                "Jāmiʻat ad-Duwal al-ʻArabīyah",
-                "League of Arab States"
-              ]
-            }
-          ],
-          "cioc": "JOR",
-          "independent": true
-        },
-        {
-          "name": "قزاقستان",
-          "topLevelDomain": [".kz", ".қаз"],
-          "alpha2Code": "KZ",
-          "alpha3Code": "KAZ",
-          "callingCodes": ["76", "77"],
-          "capital": "نورسلطان",
-          "altSpellings": [
-            "KZ",
-            "Qazaqstan",
-            "Казахстан",
-            "جمهوری قزاقستان",
-            "Қазақстан Республикасы",
-            "Qazaqstan Respublïkası",
-            "Республика Казахстан",
-            "Respublika Kazakhstan"
-          ],
-          "subregion": "آسیای مرکزی",
-          "region": "آسیا",
-          "population": 18754440,
-          "latlng": [48, 68],
-          "demonym": "قزاقستانی",
-          "area": 2724900,
-          "gini": 27.8,
-          "timezones": ["UTC+05:00", "UTC+06:00"],
-          "borders": ["CHN", "KGZ", "RUS", "TKM", "UZB"],
-          "nativeName": "Қазақстан",
-          "numericCode": "398",
-          "flags": {
-            "svg": "https://flagcdn.com/kz.svg",
-            "png": "https://flagcdn.com/w320/kz.png"
-          },
-          "currencies": [
-            {
-              "code": "KZT",
-              "name": "تنگه قزاقستانی",
-              "symbol": "₸"
-            }
-          ],
-          "languages": [
-            {
-              "iso639_1": "kk",
-              "iso639_2": "kaz",
-              "name": "قزاق",
-              "nativeName": "қазақ тілі"
-            },
-            {
-              "iso639_1": "ru",
-              "iso639_2": "rus",
-              "name": "روسی",
-              "nativeName": "Русский"
-            }
-          ],
-          "translations": {
-            "br": "Kazakstan",
-            "pt": "Cazaquistão",
-            "nl": "Kazachstan",
-            "hr": "Kazahstan",
-            "fa": "قزاقستان",
-            "de": "Kasachstan",
-            "es": "Kazajistán",
-            "fr": "Kazakhstan",
-            "ja": "カザフスタン",
-            "it": "Kazakistan",
-            "hu": "Kazahsztán"
-          },
-          "flag": "https://flagcdn.com/kz.svg",
-          "regionalBlocs": [
-            {
-              "acronym": "EEU",
-              "name": "اتحادیه اقتصادی اوراسیا",
-              "otherAcronyms": ["EAEU"]
-            }
-          ],
-          "cioc": "KAZ",
-          "independent": true
-        },
-        {
-          "name": "کنیا",
-          "topLevelDomain": [".ke"],
-          "alpha2Code": "KE",
-          "alpha3Code": "KEN",
-          "callingCodes": ["254"],
-          "capital": "نایروبی",
-          "altSpellings": ["KE", "جمهوری کنیا", "Jamhuri ya Kenya"],
-          "subregion": "شرق آفریقا",
-          "region": "آفریقا",
-          "population": 53771300,
-          "latlng": [1, 38],
-          "demonym": "کنیا",
-          "area": 580367,
-          "gini": 40.8,
-          "timezones": ["UTC+03:00"],
-          "borders": ["ETH", "SOM", "SSD", "TZA", "UGA"],
-          "nativeName": "Kenya",
-          "numericCode": "404",
-          "flags": {
-            "svg": "https://flagcdn.com/ke.svg",
-            "png": "https://flagcdn.com/w320/ke.png"
-          },
-          "currencies": [
-            {
-              "code": "KES",
-              "name": "شیلینگ کنیا",
-              "symbol": "Sh"
-            }
-          ],
-          "languages": [
-            {
-              "iso639_1": "en",
-              "iso639_2": "eng",
-              "name": "انگلیسی",
-              "nativeName": "English"
-            },
-            {
-              "iso639_1": "sw",
-              "iso639_2": "swa",
-              "name": "سواحیلی",
-              "nativeName": "Kiswahili"
-            }
-          ],
-          "translations": {
-            "br": "Kenya",
-            "pt": "Quénia",
-            "nl": "Kenia",
-            "hr": "Kenija",
-            "fa": "کنیا",
-            "de": "Kenia",
-            "es": "Kenia",
-            "fr": "Kenya",
-            "ja": "ケニア",
-            "it": "Kenya",
-            "hu": "Kenya"
-          },
-          "flag": "https://flagcdn.com/ke.svg",
-          "regionalBlocs": [
-            {
-              "acronym": "AU",
-              "name": "اتحادیه آفریقا",
-              "otherNames": [
-                "الاتحاد الأفريقي",
-                "Union africaine",
-                "União Africana",
-                "Unión Africana",
-                "Umoja wa Afrika"
-              ]
-            }
-          ],
-          "cioc": "KEN",
-          "independent": true
-        },
-        {
-          "name": "کیریباتی",
-          "topLevelDomain": [".ki"],
-          "alpha2Code": "KI",
-          "alpha3Code": "KIR",
-          "callingCodes": ["686"],
-          "capital": "تاروا جنوبی",
-          "altSpellings": ["KI", "جمهوری کیریباتی", "Ribaberiki Kiribati"],
-          "subregion": "میکرونزی",
-          "region": "اقیانوسیه",
-          "population": 119446,
-          "latlng": [1.41666666, 173],
-          "demonym": "I-Kiribati",
-          "area": 811,
-          "gini": 37,
-          "timezones": ["UTC+12:00", "UTC+13:00", "UTC+14:00"],
-          "nativeName": "Kiribati",
-          "numericCode": "296",
-          "flags": {
-            "svg": "https://flagcdn.com/ki.svg",
-            "png": "https://flagcdn.com/w320/ki.png"
-          },
-          "currencies": [
-            {
-              "code": "AUD",
-              "name": "دلار استرالیا",
-              "symbol": "$"
-            },
-            {
-              "code": "KID",
-              "name": "دلار کیریباتی",
-              "symbol": "$"
-            }
-          ],
-          "languages": [
-            {
-              "iso639_1": "en",
-              "iso639_2": "eng",
-              "name": "انگلیسی",
-              "nativeName": "English"
-            }
-          ],
-          "translations": {
-            "br": "Kiribati",
-            "pt": "Quiribáti",
-            "nl": "Kiribati",
-            "hr": "Kiribati",
-            "fa": "کیریباتی",
-            "de": "Kiribati",
-            "es": "Kiribati",
-            "fr": "Kiribati",
-            "ja": "キリバス",
-            "it": "Kiribati",
-            "hu": "Kiribati"
-          },
-          "flag": "https://flagcdn.com/ki.svg",
-          "cioc": "KIR",
-          "independent": true
-        }, 
 
-        
-  {
-    "name": "کویت",
-    "topLevelDomain": [".kw"],
-    "alpha2Code": "KW",
-    "alpha3Code": "KWT",
-    "callingCodes": ["965"],
-    "capital": "شهر کویت",
-    "altSpellings": ["KW", "کشور کویت", "Dawlat al-Kuwait"],
-    "subregion": "غرب آسیا",
-    "region": "آسیا",
-    "population": 4270563,
-    "latlng": [29.5, 45.75],
-    "demonym": "کویتی",
-    "area": 17818,
-    "timezones": ["UTC+03:00"],
-    "borders": ["IRQ", "SAU"],
-    "nativeName": "الكويت",
-    "numericCode": "414",
-    "flags": {
-      "svg": "https://flagcdn.com/kw.svg",
-      "png": "https://flagcdn.com/w320/kw.png"
-    },
-    "currencies": [
       {
-        "code": "KWD",
-        "name": "دینار کویتی",
-        "symbol": "د.ک"
-      }
-    ],
-    "languages": [
-      {
-        "iso639_1": "ar",
-        "iso639_2": "ara",
-        "name": "عربی",
-        "nativeName": "العربية"
-      }
-    ],
-    "translations": {
-      "br": "Koweit",
-      "pt": "Kuwait",
-      "nl": "Koeweit",
-      "hr": "Kuvajt",
-      "fa": "کویت",
-      "de": "Kuwait",
-      "es": "Kuwait",
-      "fr": "Koweït",
-      "ja": "クウェート",
-      "it": "Kuwait",
-      "hu": "Kuvait"
-    },
-    "flag": "https://flagcdn.com/kw.svg",
-    "regionalBlocs": [
-      {
-        "acronym": "AL",
-        "name": "اتحادیه عرب",
-        "otherNames": [
-          "جامعة الدول العربية",
-          "Jāmiʻat ad-Duwal al-ʻArabīyah",
-          "League of Arab States"
-        ]
-      }
-    ],
-    "cioc": "KUW",
-    "independent": true
-  },
-  {
-    "name": "قرقیزستان",
-    "topLevelDomain": [".kg"],
-    "alpha2Code": "KG",
-    "alpha3Code": "KGZ",
-    "callingCodes": ["996"],
-    "capital": "بیشکک",
-    "altSpellings": [
-      "KG",
-      "Киргизия",
-      "جمهوری قرقیز",
-      "Кыргыз Республикасы",
-      "Kyrgyz Respublikasy"
-    ],
-    "subregion": "آسیای مرکزی",
-    "region": "آسیا",
-    "population": 6591600,
-    "latlng": [41, 75],
-    "demonym": "قرقیزی",
-    "area": 199951,
-    "gini": 29.7,
-    "timezones": ["UTC+06:00"],
-    "borders": ["CHN", "KAZ", "TJK", "UZB"],
-    "nativeName": "Кыргызстан",
-    "numericCode": "417",
-    "flags": {
-      "svg": "https://flagcdn.com/kg.svg",
-      "png": "https://flagcdn.com/w320/kg.png"
-    },
-    "currencies": [
-      {
-        "code": "KGS",
-        "name": "سوم قرقیزستان",
-        "symbol": "с"
-      }
-    ],
-    "languages": [
-      {
-        "iso639_1": "ky",
-        "iso639_2": "kir",
-        "name": "قرقیزی",
-        "nativeName": "Кыргызча"
+        "name": "هندوراس",
+        "topLevelDomain": [".hn"],
+        "alpha2Code": "HN",
+        "alpha3Code": "HND",
+        "callingCodes": ["504"],
+        "capital": "تگوسیگالپا",
+        "altSpellings": ["HN", "جمهوری هندوراس", "República de Honduras"],
+        "subregion": "آمریکای مرکزی",
+        "region": "آمریکا",
+        "population": 9904608,
+        "latlng": [15, -86.5],
+        "demonym": "هندوراسی",
+        "area": 112492,
+        "gini": 48.2,
+        "timezones": ["UTC-06:00"],
+        "borders": ["GTM", "SLV", "NIC"],
+        "nativeName": "Honduras",
+        "numericCode": "340",
+        "flags": {
+          "svg": "https://flagcdn.com/hn.svg",
+          "png": "https://flagcdn.com/w320/hn.png"
+        },
+        "currencies": [
+          {
+            "code": "HNL",
+            "name": "لمپیره هندوراس",
+            "symbol": "L"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "es",
+            "iso639_2": "spa",
+            "name": "اسپانیایی",
+            "nativeName": "Español"
+          }
+        ],
+        "translations": {
+          "br": "Honduras",
+          "pt": "Honduras",
+          "nl": "Honduras",
+          "hr": "Honduras",
+          "fa": "هندوراس",
+          "de": "Honduras",
+          "es": "Honduras",
+          "fr": "Honduras",
+          "ja": "ホンジュラス",
+          "it": "Honduras",
+          "hu": "Honduras"
+        },
+        "flag": "https://flagcdn.com/hn.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "CAIS",
+            "name": "سیستم یکپارچه‌سازی آمریکای مرکزی",
+            "otherAcronyms": ["SICA"],
+            "otherNames": ["Sistema de la Integración Centroamericana"]
+          }
+        ],
+        "cioc": "HON",
+        "independent": true
       },
       {
-        "iso639_1": "ru",
-        "iso639_2": "rus",
-        "name": "روسی",
-        "nativeName": "Русский"
-      }
-    ],
-    "translations": {
-      "br": "Kirgizstan",
-      "pt": "Quirguizistão",
-      "nl": "Kirgizië",
-      "hr": "Kirgistan",
-      "fa": "قرقیزستان",
-      "de": "Kirgisistan",
-      "es": "Kirguizistán",
-      "fr": "Kirghizistan",
-      "ja": "キルギス",
-      "it": "Kirghizistan",
-      "hu": "Kirgizisztán"
-    },
-    "flag": "https://flagcdn.com/kg.svg",
-    "regionalBlocs": [
-      {
-        "acronym": "EEU",
-        "name": "اتحادیه اقتصادی اوراسیا",
-        "otherAcronyms": ["EAEU"]
-      }
-    ],
-    "cioc": "KGZ",
-    "independent": true
-  },
-  {
-    "name": "جمهوری دموکراتیک خلق لائوس",
-    "topLevelDomain": [".la"],
-    "alpha2Code": "LA",
-    "alpha3Code": "LAO",
-    "callingCodes": ["856"],
-    "capital": "وینتیان",
-    "altSpellings": [
-      "LA",
-      "لائوس",
-      "جمهوری دموکراتیک خلق لائوس",
-      "Sathalanalat Paxathipatai Paxaxon Lao"
-    ],
-    "subregion": "جنوب شرقی آسیا",
-    "region": "آسیا",
-    "population": 7275556,
-    "latlng": [18, 105],
-    "demonym": "لائوسی",
-    "area": 236800,
-    "gini": 38.8,
-    "timezones": ["UTC+07:00"],
-    "borders": ["MMR", "KHM", "CHN", "THA", "VNM"],
-    "nativeName": "ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ",
-    "numericCode": "418",
-    "flags": {
-      "svg": "https://flagcdn.com/la.svg",
-      "png": "https://flagcdn.com/w320/la.png"
-    },
-    "currencies": [
-      {
-        "code": "LAK",
-        "name": "کیپ لائوس",
-        "symbol": "₭"
-      }
-    ],
-    "languages": [
-      {
-        "iso639_1": "lo",
-        "iso639_2": "lao",
-        "name": "لائو",
-        "nativeName": "ພາສາລາວ"
-      }
-    ],
-    "translations": {
-      "br": "Laos",
-      "pt": "Laos",
-      "nl": "Laos",
-      "hr": "Laos",
-      "fa": "لائوس",
-      "de": "Laos",
-      "es": "Laos",
-      "fr": "Laos",
-      "ja": "ラオス人民民主共和国",
-      "it": "Laos",
-      "hu": "Laosz"
-    },
-    "flag": "https://flagcdn.com/la.svg",
-    "regionalBlocs": [
-      {
-        "acronym": "ASEAN",
-        "name": "اتحادیه کشورهای جنوب شرق آسیا"
-      }
-    ],
-    "cioc": "LAO",
-    "independent": true
-  },
-  {
-    "name": "لتونی",
-    "topLevelDomain": [".lv"],
-    "alpha2Code": "LV",
-    "alpha3Code": "LVA",
-    "callingCodes": ["371"],
-    "capital": "ریگا",
-    "altSpellings": ["LV", "جمهوری لتونی", "Latvijas Republika"],
-    "subregion": "شمال اروپا",
-    "region": "اروپا",
-    "population": 1901548,
-    "latlng": [57, 25],
-    "demonym": "لتونیایی",
-    "area": 64559,
-    "gini": 35.1,
-    "timezones": ["UTC+02:00"],
-    "borders": ["BLR", "EST", "LTU", "RUS"],
-    "nativeName": "Latvija",
-    "numericCode": "428",
-    "flags": {
-      "svg": "https://flagcdn.com/lv.svg",
-      "png": "https://flagcdn.com/w320/lv.png"
-    },
-    "currencies": [
-      {
-        "code": "EUR",
-        "name": "یورو",
-        "symbol": "€"
-      }
-    ],
-    "languages": [
-      {
-        "iso639_1": "lv",
-        "iso639_2": "lav",
-        "name": "لتونیایی",
-        "nativeName": "latviešu valoda"
-      }
-    ],
-    "translations": {
-      "br": "Latvia",
-      "pt": "Letónia",
-      "nl": "Letland",
-      "hr": "Latvija",
-      "fa": "لتونی",
-      "de": "Lettland",
-      "es": "Letonia",
-      "fr": "Lettonie",
-      "ja": "ラトビア",
-      "it": "Lettonia",
-      "hu": "Lettország"
-    },
-    "flag": "https://flagcdn.com/lv.svg",
-    "regionalBlocs": [
-      {
-        "acronym": "EU",
-        "name": "اتحادیه اروپا"
-      }
-    ],
-    "cioc": "LAT",
-    "independent": true
-  },
-  {
-    "name": "لبنان",
-    "topLevelDomain": [".lb"],
-    "alpha2Code": "LB",
-    "alpha3Code": "LBN",
-    "callingCodes": ["961"],
-    "capital": "بیروت",
-    "altSpellings": ["LB", "جمهوری لبنان", "Al-Jumhūrīyah Al-Libnānīyah"],
-    "subregion": "غرب آسیا",
-    "region": "آسیا",
-    "population": 6825442,
-    "latlng": [33.83333333, 35.83333333],
-    "demonym": "لبنانی",
-    "area": 10452,
-    "gini": 31.8,
-    "timezones": ["UTC+02:00"],
-    "borders": ["ISR", "SYR"],
-    "nativeName": "لبنان",
-    "numericCode": "422",
-    "flags": {
-      "svg": "https://flagcdn.com/lb.svg",
-      "png": "https://flagcdn.com/w320/lb.png"
-    },
-    "currencies": [
-      {
-        "code": "LBP",
-        "name": "پوند لبنانی",
-        "symbol": "ل.ل"
-      }
-    ],
-    "languages": [
-      {
-        "iso639_1": "ar",
-        "iso639_2": "ara",
-        "name": "عربی",
-        "nativeName": "العربية"
+        "name": "مجارستان",
+        "topLevelDomain": [".hu"],
+        "alpha2Code": "HU",
+        "alpha3Code": "HUN",
+        "callingCodes": ["36"],
+        "capital": "بوداپست",
+        "altSpellings": ["HU"],
+        "subregion": "اروپای مرکزی",
+        "region": "اروپا",
+        "population": 9749763,
+        "latlng": [47, 20],
+        "demonym": "مجارستانی",
+        "area": 93028,
+        "gini": 29.6,
+        "timezones": ["UTC+01:00"],
+        "borders": ["AUT", "HRV", "ROU", "SRB", "SVK", "SVN", "UKR"],
+        "nativeName": "Magyarország",
+        "numericCode": "348",
+        "flags": {
+          "svg": "https://flagcdn.com/hu.svg",
+          "png": "https://flagcdn.com/w320/hu.png"
+        },
+        "currencies": [
+          {
+            "code": "HUF",
+            "name": "فورینت مجارستان",
+            "symbol": "Ft"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "hu",
+            "iso639_2": "hun",
+            "name": "مجارستانی",
+            "nativeName": "magyar"
+          }
+        ],
+        "translations": {
+          "br": "Hungaria",
+          "pt": "Hungria",
+          "nl": "Hongarije",
+          "hr": "Mađarska",
+          "fa": "مجارستان",
+          "de": "Ungarn",
+          "es": "Hungría",
+          "fr": "Hongrie",
+          "ja": "ハンガリー",
+          "it": "Ungheria",
+          "hu": "Magyarország"
+        },
+        "flag": "https://flagcdn.com/hu.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "EU",
+            "name": "اتحادیه اروپا"
+          }
+        ],
+        "cioc": "HUN",
+        "independent": true
       },
       {
-        "iso639_1": "fr",
-        "iso639_2": "fra",
-        "name": "فرانسوی",
-        "nativeName": "français"
-      }
-    ],
-    "translations": {
-      "br": "Liban",
-      "pt": "Líbano",
-      "nl": "Libanon",
-      "hr": "Libanon",
-      "fa": "لبنان",
-      "de": "Libanon",
-      "es": "Líbano",
-      "fr": "Liban",
-      "ja": "レバノン",
-      "it": "Libano",
-      "hu": "Libanon"
-    },
-    "flag": "https://flagcdn.com/lb.svg",
-    "regionalBlocs": [
+        "name": "هنگ‌کنگ",
+        "topLevelDomain": [".hk"],
+        "alpha2Code": "HK",
+        "alpha3Code": "HKG",
+        "callingCodes": ["852"],
+        "capital": "شهر ویکتوریا",
+        "altSpellings": ["HK", "香港"],
+        "subregion": "شرق آسیا",
+        "region": "آسیا",
+        "population": 7481800,
+        "latlng": [22.25, 114.16666666],
+        "demonym": "چینی",
+        "area": 1104,
+        "timezones": ["UTC+08:00"],
+        "borders": ["CHN"],
+        "nativeName": "香港",
+        "numericCode": "344",
+        "flags": {
+          "svg": "https://flagcdn.com/hk.svg",
+          "png": "https://flagcdn.com/w320/hk.png"
+        },
+        "currencies": [
+          {
+            "code": "HKD",
+            "name": "دلار هنگ‌کنگ",
+            "symbol": "$"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "انگلیسی",
+            "nativeName": "English"
+          },
+          {
+            "iso639_1": "zh",
+            "iso639_2": "zho",
+            "name": "چینی",
+            "nativeName": "中文 (Zhōngwén)"
+          }
+        ],
+        "translations": {
+          "br": "Hong Kong",
+          "pt": "Hong Kong",
+          "nl": "Hongkong",
+          "hr": "Hong Kong",
+          "fa": "هنگ‌کنگ",
+          "de": "Hong Kong",
+          "es": "Hong Kong",
+          "fr": "Hong Kong",
+          "ja": "香港",
+          "it": "Hong Kong",
+          "hu": "Hong Kong"
+        },
+        "flag": "https://flagcdn.com/hk.svg",
+        "cioc": "HKG",
+        "independent": false
+      },
       {
-        "acronym": "AL",
-        "name": "اتحادیه عرب",
-        "otherNames": [
-          "جامعة الدول العربية",
-          "Jāmiʻat ad-Duwal al-ʻArabīyah",
-          "League of Arab States"
-        ]
-      }
-    ],
-    "cioc": "LBN",
-    "independent": true
-  }, 
+        "name": "ایسلند",
+        "topLevelDomain": [".is"],
+        "alpha2Code": "IS",
+        "alpha3Code": "ISL",
+        "callingCodes": ["354"],
+        "capital": "رِیکیاویک",
+        "altSpellings": ["IS", "Island", "جمهوری ایسلند", "Lýðveldið Ísland"],
+        "subregion": "شمال اروپا",
+        "region": "اروپا",
+        "population": 366425,
+        "latlng": [65, -18],
+        "demonym": "ایسلندی",
+        "area": 103000,
+        "gini": 26.1,
+        "timezones": ["UTC"],
+        "nativeName": "Ísland",
+        "numericCode": "352",
+        "flags": {
+          "svg": "https://flagcdn.com/is.svg",
+          "png": "https://flagcdn.com/w320/is.png"
+        },
+        "currencies": [
+          {
+            "code": "ISK",
+            "name": "کرونای ایسلند",
+            "symbol": "kr"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "is",
+            "iso639_2": "isl",
+            "name": "ایسلندی",
+            "nativeName": "Íslenska"
+          }
+        ],
+        "translations": {
+          "br": "Island",
+          "pt": "Islândia",
+          "nl": "IJsland",
+          "hr": "Island",
+          "fa": "ایسلند",
+          "de": "Island",
+          "es": "Islandia",
+          "fr": "Islande",
+          "ja": "アイスランド",
+          "it": "Islanda",
+          "hu": "Izland"
+        },
+        "flag": "https://flagcdn.com/is.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "EFTA",
+            "name": "اتحادیه تجارت آزاد اروپا"
+          }
+        ],
+        "cioc": "ISL",
+        "independent": true
+      },
+      {
+        "name": "هند",
+        "topLevelDomain": [".in"],
+        "alpha2Code": "IN",
+        "alpha3Code": "IND",
+        "callingCodes": ["91"],
+        "capital": "دهلی نو",
+        "altSpellings": ["IN", "Bhārat", "جمهوری هند", "Bharat Ganrajya"],
+        "subregion": "جنوب آسیا",
+        "region": "آسیا",
+        "population": 1380004385,
+        "latlng": [20, 77],
+        "demonym": "هندی",
+        "area": 3287590,
+        "gini": 35.7,
+        "timezones": ["UTC+05:30"],
+        "borders": ["AFG", "BGD", "BTN", "MMR", "CHN", "NPL", "PAK", "LKA"],
+        "nativeName": "भारत",
+        "numericCode": "356",
+        "flags": {
+          "svg": "https://flagcdn.com/in.svg",
+          "png": "https://flagcdn.com/w320/in.png"
+        },
+        "currencies": [
+          {
+            "code": "INR",
+            "name": "روپیه هند",
+            "symbol": "₹"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "hi",
+            "iso639_2": "hin",
+            "name": "هندی",
+            "nativeName": "हिन्दी"
+          },
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "انگلیسی",
+            "nativeName": "English"
+          }
+        ],
+        "translations": {
+          "br": "India",
+          "pt": "Índia",
+          "nl": "India",
+          "hr": "Indija",
+          "fa": "هند",
+          "de": "Indien",
+          "es": "India",
+          "fr": "Inde",
+          "ja": "インド",
+          "it": "India",
+          "hu": "India"
+        },
+        "flag": "https://flagcdn.com/in.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "SAARC",
+            "name": "اتحادیه همکاری‌های منطقه‌ای جنوب آسیا"
+          }
+        ],
+        "cioc": "IND",
+        "independent": true
+      }, {
+        "name": "اندونزی",
+        "topLevelDomain": [".id"],
+        "alpha2Code": "ID",
+        "alpha3Code": "IDN",
+        "callingCodes": ["62"],
+        "capital": "جاکارتا",
+        "altSpellings": ["ID", "جمهوری اندونزی", "Republik Indonesia"],
+        "subregion": "جنوب شرقی آسیا",
+        "region": "آسیا",
+        "population": 273523621,
+        "latlng": [-5, 120],
+        "demonym": "اندونزیایی",
+        "area": 1904569,
+        "gini": 38.2,
+        "timezones": ["UTC+07:00", "UTC+08:00", "UTC+09:00"],
+        "borders": ["TLS", "MYS", "PNG"],
+        "nativeName": "Indonesia",
+        "numericCode": "360",
+        "flags": {
+          "svg": "https://flagcdn.com/id.svg",
+          "png": "https://flagcdn.com/w320/id.png"
+        },
+        "currencies": [
+          {
+            "code": "IDR",
+            "name": "روپیه اندونزی",
+            "symbol": "Rp"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "id",
+            "iso639_2": "ind",
+            "name": "اندونزیایی",
+            "nativeName": "Bahasa Indonesia"
+          }
+        ],
+        "translations": {
+          "br": "Indonezia",
+          "pt": "Indonésia",
+          "nl": "Indonesië",
+          "hr": "Indonezija",
+          "fa": "اندونزی",
+          "de": "Indonesien",
+          "es": "Indonesia",
+          "fr": "Indonésie",
+          "ja": "インドネシア",
+          "it": "Indonesia",
+          "hu": "Indonézia"
+        },
+        "flag": "https://flagcdn.com/id.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "ASEAN",
+            "name": "اتحادیه کشورهای جنوب شرق آسیا"
+          }
+        ],
+        "cioc": "INA",
+        "independent": true
+      },
+      {
+        "name": "ساحل عاج",
+        "topLevelDomain": [".ci"],
+        "alpha2Code": "CI",
+        "alpha3Code": "CIV",
+        "callingCodes": ["225"],
+        "capital": "یاموسوکرو",
+        "altSpellings": [
+          "CI",
+          "ساحل عاج",
+          "جمهوری ساحل عاج",
+          "République de Côte d'Ivoire"
+        ],
+        "subregion": "غرب آفریقا",
+        "region": "آفریقا",
+        "population": 26378275,
+        "latlng": [8, -5],
+        "demonym": "عاجی",
+        "area": 322463,
+        "gini": 41.5,
+        "timezones": ["UTC"],
+        "borders": ["BFA", "GHA", "GIN", "LBR", "MLI"],
+        "nativeName": "Côte d'Ivoire",
+        "numericCode": "384",
+        "flags": {
+          "svg": "https://flagcdn.com/ci.svg",
+          "png": "https://flagcdn.com/w320/ci.png"
+        },
+        "currencies": [
+          {
+            "code": "XOF",
+            "name": "فرانک CFA غرب آفریقا",
+            "symbol": "Fr"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "fr",
+            "iso639_2": "fra",
+            "name": "فرانسوی",
+            "nativeName": "français"
+          }
+        ],
+        "translations": {
+          "br": "Aod an Olifant",
+          "pt": "Costa do Marfim",
+          "nl": "Ivoorkust",
+          "hr": "Obala Bjelokosti",
+          "fa": "ساحل عاج",
+          "de": "Elfenbeinküste",
+          "es": "Costa de Marfil",
+          "fr": "Côte d'Ivoire",
+          "ja": "コートジボワール",
+          "it": "Costa D'Avorio",
+          "hu": "Elefántcsontpart"
+        },
+        "flag": "https://flagcdn.com/ci.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AU",
+            "name": "اتحادیه آفریقا",
+            "otherNames": [
+              "الاتحاد الأفريقي",
+              "Union africaine",
+              "União Africana",
+              "Unión Africana",
+              "Umoja wa Afrika"
+            ]
+          }
+        ],
+        "cioc": "CIV",
+        "independent": true
+      },
+      {
+        "name": "ایران (جمهوری اسلامی)",
+        "topLevelDomain": [".ir"],
+        "alpha2Code": "IR",
+        "alpha3Code": "IRN",
+        "callingCodes": ["98"],
+        "capital": "تهران",
+        "altSpellings": [
+          "IR",
+          "جمهوری اسلامی ایران",
+          "Jomhuri-ye Eslāmi-ye Irān"
+        ],
+        "subregion": "جنوب آسیا",
+        "region": "آسیا",
+        "population": 83992953,
+        "latlng": [32, 53],
+        "demonym": "ایرانی",
+        "area": 1648195,
+        "gini": 42,
+        "timezones": ["UTC+03:30"],
+        "borders": ["AFG", "ARM", "AZE", "IRQ", "PAK", "TUR", "TKM"],
+        "nativeName": "ایران",
+        "numericCode": "364",
+        "flags": {
+          "svg": "https://flagcdn.com/ir.svg",
+          "png": "https://flagcdn.com/w320/ir.png"
+        },
+        "currencies": [
+          {
+            "code": "IRR",
+            "name": "ریال ایران",
+            "symbol": "﷼"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "fa",
+            "iso639_2": "fas",
+            "name": "فارسی",
+            "nativeName": "فارسی"
+          }
+        ],
+        "translations": {
+          "br": "Iran",
+          "pt": "Irão",
+          "nl": "Iran",
+          "hr": "Iran",
+          "fa": "ایران",
+          "de": "Iran",
+          "es": "Iran",
+          "fr": "Iran",
+          "ja": "イラン・イスラム共和国",
+          "it": "Iran (Islamic Republic of)",
+          "hu": "Irán"
+        },
+        "flag": "https://flagcdn.com/ir.svg",
+        "cioc": "IRI",
+        "independent": true
+      },
+      {
+        "name": "عراق",
+        "topLevelDomain": [".iq"],
+        "alpha2Code": "IQ",
+        "alpha3Code": "IRQ",
+        "callingCodes": ["964"],
+        "capital": "بغداد",
+        "altSpellings": ["IQ", "جمهوری عراق", "Jumhūriyyat al-‘Irāq"],
+        "subregion": "غرب آسیا",
+        "region": "آسیا",
+        "population": 40222503,
+        "latlng": [33, 44],
+        "demonym": "عراقی",
+        "area": 438317,
+        "gini": 29.5,
+        "timezones": ["UTC+03:00"],
+        "borders": ["IRN", "JOR", "KWT", "SAU", "SYR", "TUR"],
+        "nativeName": "العراق",
+        "numericCode": "368",
+        "flags": {
+          "svg": "https://flagcdn.com/iq.svg",
+          "png": "https://flagcdn.com/w320/iq.png"
+        },
+        "currencies": [
+          {
+            "code": "IQD",
+            "name": "دینار عراقی",
+            "symbol": "ع.د"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "ar",
+            "iso639_2": "ara",
+            "name": "عربی",
+            "nativeName": "العربية"
+          },
+          {
+            "iso639_1": "ku",
+            "iso639_2": "kur",
+            "name": "کردی",
+            "nativeName": "Kurdî"
+          }
+        ],
+        "translations": {
+          "br": "Irak",
+          "pt": "Iraque",
+          "nl": "Irak",
+          "hr": "Irak",
+          "fa": "عراق",
+          "de": "Irak",
+          "es": "Irak",
+          "fr": "Irak",
+          "ja": "イラク",
+          "it": "Iraq",
+          "hu": "Irak"
+        },
+        "flag": "https://flagcdn.com/iq.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AL",
+            "name": "اتحادیه عرب",
+            "otherNames": [
+              "جامعة الدول العربية",
+              "Jāmiʻat ad-Duwal al-ʻArabīyah",
+              "League of Arab States"
+            ]
+          }
+        ],
+        "cioc": "IRQ",
+        "independent": true
+      },
+      {
+        "name": "ایرلند",
+        "topLevelDomain": [".ie"],
+        "alpha2Code": "IE",
+        "alpha3Code": "IRL",
+        "callingCodes": ["353"],
+        "capital": "دوبلین",
+        "altSpellings": [
+          "IE",
+          "Éire",
+          "جمهوری ایرلند",
+          "Poblacht na hÉireann"
+        ],
+        "subregion": "شمال اروپا",
+        "region": "اروپا",
+        "population": 4994724,
+        "latlng": [53, -8],
+        "demonym": "ایرلندی",
+        "area": 70273,
+        "gini": 31.4,
+        "timezones": ["UTC"],
+        "borders": ["GBR"],
+        "nativeName": "Éire",
+        "numericCode": "372",
+        "flags": {
+          "svg": "https://flagcdn.com/ie.svg",
+          "png": "https://flagcdn.com/w320/ie.png"
+        },
+        "currencies": [
+          {
+            "code": "EUR",
+            "name": "یورو",
+            "symbol": "€"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "ga",
+            "iso639_2": "gle",
+            "name": "ایرلندی",
+            "nativeName": "Gaeilge"
+          },
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "انگلیسی",
+            "nativeName": "English"
+          }
+        ],
+        "translations": {
+          "br": "Iwerzhon",
+          "pt": "Irlanda",
+          "nl": "Ierland",
+          "hr": "Irska",
+          "fa": "ایرلند",
+          "de": "Irland",
+          "es": "Irlanda",
+          "fr": "Irlande",
+          "ja": "アイルランド",
+          "it": "Irlanda",
+          "hu": "Írország"
+        },
+        "flag": "https://flagcdn.com/ie.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "EU",
+            "name": "اتحادیه اروپا"
+          }
+        ],
+        "cioc": "IRL",
+        "independent": true
+      }, 
 
-  {
-    "name": "لسوتو",
-    "topLevelDomain": [".ls"],
-    "alpha2Code": "LS",
-    "alpha3Code": "LSO",
-    "callingCodes": ["266"],
-    "capital": "ماسرو",
-    "altSpellings": ["LS", "پادشاهی لسوتو", "Muso oa Lesotho"],
-    "subregion": "جنوب آفریقا",
-    "region": "آفریقا",
-    "population": 2142252,
-    "latlng": [-29.5, 28.5],
-    "demonym": "موسوتو",
-    "area": 30355,
-    "gini": 44.9,
-    "timezones": ["UTC+02:00"],
-    "borders": ["ZAF"],
-    "nativeName": "Lesotho",
-    "numericCode": "426",
-    "flags": {
-      "svg": "https://flagcdn.com/ls.svg",
-      "png": "https://flagcdn.com/w320/ls.png"
-    },
-    "currencies": [
       {
-        "code": "LSL",
-        "name": "لوتی لسوتو",
-        "symbol": "L"
+        "name": "جرزی",
+        "topLevelDomain": [".je"],
+        "alpha2Code": "JE",
+        "alpha3Code": "JEY",
+        "callingCodes": ["44"],
+        "capital": "سن هلیر",
+        "altSpellings": [
+          "JE",
+          "بایلیویک جرزی",
+          "Bailliage de Jersey",
+          "Bailliage dé Jèrri"
+        ],
+        "subregion": "شمال اروپا",
+        "region": "اروپا",
+        "population": 100800,
+        "latlng": [49.25, -2.16666666],
+        "demonym": "جزیره‌نشین کانال",
+        "area": 116,
+        "timezones": ["UTC+01:00"],
+        "nativeName": "Jersey",
+        "numericCode": "832",
+        "flags": {
+          "svg": "https://flagcdn.com/je.svg",
+          "png": "https://flagcdn.com/w320/je.png"
+        },
+        "currencies": [
+          {
+            "code": "GBP",
+            "name": "پوند بریتانیا",
+            "symbol": "£"
+          },
+          {
+            "code": "JEP[G]",
+            "name": "پوند جرزی",
+            "symbol": "£"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "انگلیسی",
+            "nativeName": "English"
+          },
+          {
+            "iso639_1": "fr",
+            "iso639_2": "fra",
+            "name": "فرانسوی",
+            "nativeName": "français"
+          }
+        ],
+        "translations": {
+          "br": "Jerzenez",
+          "pt": "Jersey",
+          "nl": "Jersey",
+          "hr": "Jersey",
+          "fa": "جرزی",
+          "de": "Jersey",
+          "es": "Jersey",
+          "fr": "Jersey",
+          "ja": "ジャージー",
+          "it": "Isola di Jersey",
+          "hu": "Jersey"
+        },
+        "flag": "https://flagcdn.com/je.svg",
+        "independent": false
       },
       {
-        "code": "ZAR",
-        "name": "راند آفریقای جنوبی",
-        "symbol": "R"
-      }
-    ],
-    "languages": [
-      {
-        "iso639_1": "en",
-        "iso639_2": "eng",
-        "name": "انگلیسی",
-        "nativeName": "English"
+        "name": "اردن",
+        "topLevelDomain": [".jo"],
+        "alpha2Code": "JO",
+        "alpha3Code": "JOR",
+        "callingCodes": ["962"],
+        "capital": "عمان",
+        "altSpellings": [
+          "JO",
+          "پادشاهی هاشمی اردن",
+          "al-Mamlakah al-Urdunīyah al-Hāshimīyah"
+        ],
+        "subregion": "غرب آسیا",
+        "region": "آسیا",
+        "population": 10203140,
+        "latlng": [31, 36],
+        "demonym": "اردنی",
+        "area": 89342,
+        "gini": 33.7,
+        "timezones": ["UTC+03:00"],
+        "borders": ["IRQ", "ISR", "SAU", "SYR"],
+        "nativeName": "الأردن",
+        "numericCode": "400",
+        "flags": {
+          "svg": "https://flagcdn.com/jo.svg",
+          "png": "https://flagcdn.com/w320/jo.png"
+        },
+        "currencies": [
+          {
+            "code": "JOD",
+            "name": "دینار اردنی",
+            "symbol": "د.ا"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "ar",
+            "iso639_2": "ara",
+            "name": "عربی",
+            "nativeName": "العربية"
+          }
+        ],
+        "translations": {
+          "br": "Jordania",
+          "pt": "Jordânia",
+          "nl": "Jordanië",
+          "hr": "Jordan",
+          "fa": "اردن",
+          "de": "Jordanien",
+          "es": "Jordania",
+          "fr": "Jordanie",
+          "ja": "ヨルダン",
+          "it": "Giordania",
+          "hu": "Jordánia"
+        },
+        "flag": "https://flagcdn.com/jo.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AL",
+            "name": "اتحادیه عرب",
+            "otherNames": [
+              "جامعة الدول العربية",
+              "Jāmiʻat ad-Duwal al-ʻArabīyah",
+              "League of Arab States"
+            ]
+          }
+        ],
+        "cioc": "JOR",
+        "independent": true
       },
       {
-        "iso639_1": "st",
-        "iso639_2": "sot",
-        "name": "سوتو جنوبی",
-        "nativeName": "Sesotho"
-      }
-    ],
-    "translations": {
-      "br": "Lesotho",
-      "pt": "Lesoto",
-      "nl": "Lesotho",
-      "hr": "Lesoto",
-      "fa": "لسوتو",
-      "de": "Lesotho",
-      "es": "Lesotho",
-      "fr": "Lesotho",
-      "ja": "レソト",
-      "it": "Lesotho",
-      "hu": "Lesotho"
-    },
-    "flag": "https://flagcdn.com/ls.svg",
-    "regionalBlocs": [
-      {
-        "acronym": "AU",
-        "name": "اتحادیه آفریقا",
-        "otherNames": [
-          "الاتحاد الأفريقي",
-          "Union africaine",
-          "União Africana",
-          "Unión Africana",
-          "Umoja wa Afrika"
-        ]
-      }
-    ],
-    "cioc": "LES",
-    "independent": true
-  },
-  {
-    "name": "لیبریا",
-    "topLevelDomain": [".lr"],
-    "alpha2Code": "LR",
-    "alpha3Code": "LBR",
-    "callingCodes": ["231"],
-    "capital": "مونرویا",
-    "altSpellings": ["LR", "جمهوری لیبریا"],
-    "subregion": "غرب آفریقا",
-    "region": "آفریقا",
-    "population": 5057677,
-    "latlng": [6.5, -9.5],
-    "demonym": "لیبریایی",
-    "area": 111369,
-    "gini": 35.3,
-    "timezones": ["UTC"],
-    "borders": ["GIN", "CIV", "SLE"],
-    "nativeName": "Liberia",
-    "numericCode": "430",
-    "flags": {
-      "svg": "https://flagcdn.com/lr.svg",
-      "png": "https://flagcdn.com/w320/lr.png"
-    },
-    "currencies": [
-      {
-        "code": "LRD",
-        "name": "دلار لیبریا",
-        "symbol": "$"
-      }
-    ],
-    "languages": [
-      {
-        "iso639_1": "en",
-        "iso639_2": "eng",
-        "name": "انگلیسی",
-        "nativeName": "English"
-      }
-    ],
-    "translations": {
-      "br": "Liberia",
-      "pt": "Libéria",
-      "nl": "Liberia",
-      "hr": "Liberija",
-      "fa": "لیبریا",
-      "de": "Liberia",
-      "es": "Liberia",
-      "fr": "Liberia",
-      "ja": "リベリア",
-      "it": "Liberia",
-      "hu": "Libéria"
-    },
-    "flag": "https://flagcdn.com/lr.svg",
-    "regionalBlocs": [
-      {
-        "acronym": "AU",
-        "name": "اتحادیه آفریقا",
-        "otherNames": [
-          "الاتحاد الأفريقي",
-          "Union africaine",
-          "União Africana",
-          "Unión Africana",
-          "Umoja wa Afrika"
-        ]
-      }
-    ],
-    "cioc": "LBR",
-    "independent": true
-  },
-  {
-    "name": "لیبی",
-    "topLevelDomain": [".ly"],
-    "alpha2Code": "LY",
-    "alpha3Code": "LBY",
-    "callingCodes": ["218"],
-    "capital": "طرابلس",
-    "altSpellings": ["LY", "کشور لیبی", "Dawlat Libya"],
-    "subregion": "شمال آفریقا",
-    "region": "آفریقا",
-    "population": 6871287,
-    "latlng": [25, 17],
-    "demonym": "لیبیایی",
-    "area": 1759540,
-    "timezones": ["UTC+01:00"],
-    "borders": ["DZA", "TCD", "EGY", "NER", "SDN", "TUN"],
-    "nativeName": "‏ليبيا",
-    "numericCode": "434",
-    "flags": {
-      "svg": "https://flagcdn.com/ly.svg",
-      "png": "https://flagcdn.com/w320/ly.png"
-    },
-    "currencies": [
-      {
-        "code": "LYD",
-        "name": "دینار لیبی",
-        "symbol": "ل.د"
-      }
-    ],
-    "languages": [
-      {
-        "iso639_1": "ar",
-        "iso639_2": "ara",
-        "name": "عربی",
-        "nativeName": "العربية"
-      }
-    ],
-    "translations": {
-      "br": "Libia",
-      "pt": "Líbia",
-      "nl": "Libië",
-      "hr": "Libija",
-      "fa": "لیبی",
-      "de": "Libyen",
-      "es": "Libia",
-      "fr": "Libye",
-      "ja": "リビア",
-      "it": "Libia",
-      "hu": "Líbia"
-    },
-    "flag": "https://flagcdn.com/ly.svg",
-    "regionalBlocs": [
-      {
-        "acronym": "AU",
-        "name": "اتحادیه آفریقا",
-        "otherNames": [
-          "الاتحاد الأفريقي",
-          "Union africaine",
-          "União Africana",
-          "Unión Africana",
-          "Umoja wa Afrika"
-        ]
+        "name": "قزاقستان",
+        "topLevelDomain": [".kz", ".қаз"],
+        "alpha2Code": "KZ",
+        "alpha3Code": "KAZ",
+        "callingCodes": ["76", "77"],
+        "capital": "نورسلطان",
+        "altSpellings": [
+          "KZ",
+          "Qazaqstan",
+          "Казахстан",
+          "جمهوری قزاقستان",
+          "Қазақстан Республикасы",
+          "Qazaqstan Respublïkası",
+          "Республика Казахстан",
+          "Respublika Kazakhstan"
+        ],
+        "subregion": "آسیای مرکزی",
+        "region": "آسیا",
+        "population": 18754440,
+        "latlng": [48, 68],
+        "demonym": "قزاقستانی",
+        "area": 2724900,
+        "gini": 27.8,
+        "timezones": ["UTC+05:00", "UTC+06:00"],
+        "borders": ["CHN", "KGZ", "RUS", "TKM", "UZB"],
+        "nativeName": "Қазақстан",
+        "numericCode": "398",
+        "flags": {
+          "svg": "https://flagcdn.com/kz.svg",
+          "png": "https://flagcdn.com/w320/kz.png"
+        },
+        "currencies": [
+          {
+            "code": "KZT",
+            "name": "تنگه قزاقستانی",
+            "symbol": "₸"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "kk",
+            "iso639_2": "kaz",
+            "name": "قزاق",
+            "nativeName": "қазақ тілі"
+          },
+          {
+            "iso639_1": "ru",
+            "iso639_2": "rus",
+            "name": "روسی",
+            "nativeName": "Русский"
+          }
+        ],
+        "translations": {
+          "br": "Kazakstan",
+          "pt": "Cazaquistão",
+          "nl": "Kazachstan",
+          "hr": "Kazahstan",
+          "fa": "قزاقستان",
+          "de": "Kasachstan",
+          "es": "Kazajistán",
+          "fr": "Kazakhstan",
+          "ja": "カザフスタン",
+          "it": "Kazakistan",
+          "hu": "Kazahsztán"
+        },
+        "flag": "https://flagcdn.com/kz.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "EEU",
+            "name": "اتحادیه اقتصادی اوراسیا",
+            "otherAcronyms": ["EAEU"]
+          }
+        ],
+        "cioc": "KAZ",
+        "independent": true
       },
       {
-        "acronym": "AL",
-        "name": "اتحادیه عرب",
-        "otherNames": [
-          "جامعة الدول العربية",
-          "Jāmiʻat ad-Duwal al-ʻArabīyah",
-          "League of Arab States"
-        ]
-      }
-    ],
-    "cioc": "LBA",
-    "independent": true
-  },
-  {
-    "name": "لیختن‌اشتاین",
-    "topLevelDomain": [".li"],
-    "alpha2Code": "LI",
-    "alpha3Code": "LIE",
-    "callingCodes": ["423"],
-    "capital": "وادوز",
-    "altSpellings": [
-      "LI",
-      "امیرنشین لیختن‌اشتاین",
-      "Fürstentum Liechtenstein"
-    ],
-    "subregion": "اروپای مرکزی",
-    "region": "اروپا",
-    "population": 38137,
-    "latlng": [47.26666666, 9.53333333],
-    "demonym": "لیختن‌اشتاینی",
-    "area": 160,
-    "timezones": ["UTC+01:00"],
-    "borders": ["AUT", "CHE"],
-    "nativeName": "Liechtenstein",
-    "numericCode": "438",
-    "flags": {
-      "svg": "https://flagcdn.com/li.svg",
-      "png": "https://flagcdn.com/w320/li.png"
-    },
-    "currencies": [
+        "name": "کنیا",
+        "topLevelDomain": [".ke"],
+        "alpha2Code": "KE",
+        "alpha3Code": "KEN",
+        "callingCodes": ["254"],
+        "capital": "نایروبی",
+        "altSpellings": ["KE", "جمهوری کنیا", "Jamhuri ya Kenya"],
+        "subregion": "شرق آفریقا",
+        "region": "آفریقا",
+        "population": 53771300,
+        "latlng": [1, 38],
+        "demonym": "کنیا",
+        "area": 580367,
+        "gini": 40.8,
+        "timezones": ["UTC+03:00"],
+        "borders": ["ETH", "SOM", "SSD", "TZA", "UGA"],
+        "nativeName": "Kenya",
+        "numericCode": "404",
+        "flags": {
+          "svg": "https://flagcdn.com/ke.svg",
+          "png": "https://flagcdn.com/w320/ke.png"
+        },
+        "currencies": [
+          {
+            "code": "KES",
+            "name": "شیلینگ کنیا",
+            "symbol": "Sh"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "انگلیسی",
+            "nativeName": "English"
+          },
+          {
+            "iso639_1": "sw",
+            "iso639_2": "swa",
+            "name": "سواحیلی",
+            "nativeName": "Kiswahili"
+          }
+        ],
+        "translations": {
+          "br": "Kenya",
+          "pt": "Quénia",
+          "nl": "Kenia",
+          "hr": "Kenija",
+          "fa": "کنیا",
+          "de": "Kenia",
+          "es": "Kenia",
+          "fr": "Kenya",
+          "ja": "ケニア",
+          "it": "Kenya",
+          "hu": "Kenya"
+        },
+        "flag": "https://flagcdn.com/ke.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AU",
+            "name": "اتحادیه آفریقا",
+            "otherNames": [
+              "الاتحاد الأفريقي",
+              "Union africaine",
+              "União Africana",
+              "Unión Africana",
+              "Umoja wa Afrika"
+            ]
+          }
+        ],
+        "cioc": "KEN",
+        "independent": true
+      },
       {
-        "code": "CHF",
-        "name": "فرانک سوئیس",
-        "symbol": "Fr"
-      }
-    ],
-    "languages": [
+        "name": "کیریباتی",
+        "topLevelDomain": [".ki"],
+        "alpha2Code": "KI",
+        "alpha3Code": "KIR",
+        "callingCodes": ["686"],
+        "capital": "تاروا جنوبی",
+        "altSpellings": ["KI", "جمهوری کیریباتی", "Ribaberiki Kiribati"],
+        "subregion": "میکرونزی",
+        "region": "اقیانوسیه",
+        "population": 119446,
+        "latlng": [1.41666666, 173],
+        "demonym": "I-Kiribati",
+        "area": 811,
+        "gini": 37,
+        "timezones": ["UTC+12:00", "UTC+13:00", "UTC+14:00"],
+        "nativeName": "Kiribati",
+        "numericCode": "296",
+        "flags": {
+          "svg": "https://flagcdn.com/ki.svg",
+          "png": "https://flagcdn.com/w320/ki.png"
+        },
+        "currencies": [
+          {
+            "code": "AUD",
+            "name": "دلار استرالیا",
+            "symbol": "$"
+          },
+          {
+            "code": "KID",
+            "name": "دلار کیریباتی",
+            "symbol": "$"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "انگلیسی",
+            "nativeName": "English"
+          }
+        ],
+        "translations": {
+          "br": "Kiribati",
+          "pt": "Quiribáti",
+          "nl": "Kiribati",
+          "hr": "Kiribati",
+          "fa": "کیریباتی",
+          "de": "Kiribati",
+          "es": "Kiribati",
+          "fr": "Kiribati",
+          "ja": "キリバス",
+          "it": "Kiribati",
+          "hu": "Kiribati"
+        },
+        "flag": "https://flagcdn.com/ki.svg",
+        "cioc": "KIR",
+        "independent": true
+      }, 
+
       {
-        "iso639_1": "de",
-        "iso639_2": "deu",
-        "name": "آلمانی",
-        "nativeName": "Deutsch"
-      }
-    ],
-    "translations": {
-      "br": "Liechtenstein",
-      "pt": "Listenstaine",
-      "nl": "Liechtenstein",
-      "hr": "Lihtenštajn",
-      "fa": "لیختن‌اشتاین",
-      "de": "Liechtenstein",
-      "es": "Liechtenstein",
-      "fr": "Liechtenstein",
-      "ja": "リヒテンシュタイン",
-      "it": "Liechtenstein",
-      "hu": "Liechtenstein"
-    },
-    "flag": "https://flagcdn.com/li.svg",
-    "regionalBlocs": [
+        "name": "کویت",
+        "topLevelDomain": [".kw"],
+        "alpha2Code": "KW",
+        "alpha3Code": "KWT",
+        "callingCodes": ["965"],
+        "capital": "شهر کویت",
+        "altSpellings": ["KW", "کشور کویت", "Dawlat al-Kuwait"],
+        "subregion": "غرب آسیا",
+        "region": "آسیا",
+        "population": 4270563,
+        "latlng": [29.5, 45.75],
+        "demonym": "کویتی",
+        "area": 17818,
+        "timezones": ["UTC+03:00"],
+        "borders": ["IRQ", "SAU"],
+        "nativeName": "الكويت",
+        "numericCode": "414",
+        "flags": {
+          "svg": "https://flagcdn.com/kw.svg",
+          "png": "https://flagcdn.com/w320/kw.png"
+        },
+        "currencies": [
+          {
+            "code": "KWD",
+            "name": "دینار کویتی",
+            "symbol": "د.ک"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "ar",
+            "iso639_2": "ara",
+            "name": "عربی",
+            "nativeName": "العربية"
+          }
+        ],
+        "translations": {
+          "br": "Koweit",
+          "pt": "Kuwait",
+          "nl": "Koeweit",
+          "hr": "Kuvajt",
+          "fa": "کویت",
+          "de": "Kuwait",
+          "es": "Kuwait",
+          "fr": "Koweït",
+          "ja": "クウェート",
+          "it": "Kuwait",
+          "hu": "Kuvait"
+        },
+        "flag": "https://flagcdn.com/kw.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AL",
+            "name": "اتحادیه عرب",
+            "otherNames": [
+              "جامعة الدول العربية",
+              "Jāmiʻat ad-Duwal al-ʻArabīyah",
+              "League of Arab States"
+            ]
+          }
+        ],
+        "cioc": "KUW",
+        "independent": true
+      },
       {
-        "acronym": "EFTA",
-        "name": "اتحادیه تجارت آزاد اروپا"
-      }
-    ],
-    "cioc": "LIE",
-    "independent": true
-  },
-  {
-    "name": "لیتوانی",
-    "topLevelDomain": [".lt"],
-    "alpha2Code": "LT",
-    "alpha3Code": "LTU",
-    "callingCodes": ["370"],
-    "capital": "ویلنیوس",
-    "altSpellings": ["LT", "جمهوری لیتوانی", "Lietuvos Respublika"],
-    "subregion": "شمال اروپا",
-    "region": "اروپا",
-    "population": 2794700,
-    "latlng": [56, 24],
-    "demonym": "لیتوانیایی",
-    "area": 65300,
-    "gini": 35.7,
-    "timezones": ["UTC+02:00"],
-    "borders": ["BLR", "LVA", "POL", "RUS"],
-    "nativeName": "Lietuva",
-    "numericCode": "440",
-    "flags": {
-      "svg": "https://flagcdn.com/lt.svg",
-      "png": "https://flagcdn.com/w320/lt.png"
-    },
-    "currencies": [
+        "name": "قرقیزستان",
+        "topLevelDomain": [".kg"],
+        "alpha2Code": "KG",
+        "alpha3Code": "KGZ",
+        "callingCodes": ["996"],
+        "capital": "بیشکک",
+        "altSpellings": [
+          "KG",
+          "Киргизия",
+          "جمهوری قرقیز",
+          "Кыргыз Республикасы",
+          "Kyrgyz Respublikasy"
+        ],
+        "subregion": "آسیای مرکزی",
+        "region": "آسیا",
+        "population": 6591600,
+        "latlng": [41, 75],
+        "demonym": "قرقیزی",
+        "area": 199951,
+        "gini": 29.7,
+        "timezones": ["UTC+06:00"],
+        "borders": ["CHN", "KAZ", "TJK", "UZB"],
+        "nativeName": "Кыргызстан",
+        "numericCode": "417",
+        "flags": {
+          "svg": "https://flagcdn.com/kg.svg",
+          "png": "https://flagcdn.com/w320/kg.png"
+        },
+        "currencies": [
+          {
+            "code": "KGS",
+            "name": "سوم قرقیزستان",
+            "symbol": "с"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "ky",
+            "iso639_2": "kir",
+            "name": "قرقیزی",
+            "nativeName": "Кыргызча"
+          },
+          {
+            "iso639_1": "ru",
+            "iso639_2": "rus",
+            "name": "روسی",
+            "nativeName": "Русский"
+          }
+        ],
+        "translations": {
+          "br": "Kirgizstan",
+          "pt": "Quirguizistão",
+          "nl": "Kirgizië",
+          "hr": "Kirgistan",
+          "fa": "قرقیزستان",
+          "de": "Kirgisistan",
+          "es": "Kirguizistán",
+          "fr": "Kirghizistan",
+          "ja": "キルギス",
+          "it": "Kirghizistan",
+          "hu": "Kirgizisztán"
+        },
+        "flag": "https://flagcdn.com/kg.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "EEU",
+            "name": "اتحادیه اقتصادی اوراسیا",
+            "otherAcronyms": ["EAEU"]
+          }
+        ],
+        "cioc": "KGZ",
+        "independent": true
+      },
       {
-        "code": "EUR",
-        "name": "یورو",
-        "symbol": "€"
-      }
-    ],
-    "languages": [
+        "name": "جمهوری دموکراتیک خلق لائوس",
+        "topLevelDomain": [".la"],
+        "alpha2Code": "LA",
+        "alpha3Code": "LAO",
+        "callingCodes": ["856"],
+        "capital": "وینتیان",
+        "altSpellings": [
+          "LA",
+          "لائوس",
+          "جمهوری دموکراتیک خلق لائوس",
+          "Sathalanalat Paxathipatai Paxaxon Lao"
+        ],
+        "subregion": "جنوب شرقی آسیا",
+        "region": "آسیا",
+        "population": 7275556,
+        "latlng": [18, 105],
+        "demonym": "لائوسی",
+        "area": 236800,
+        "gini": 38.8,
+        "timezones": ["UTC+07:00"],
+        "borders": ["MMR", "KHM", "CHN", "THA", "VNM"],
+        "nativeName": "ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ",
+        "numericCode": "418",
+        "flags": {
+          "svg": "https://flagcdn.com/la.svg",
+          "png": "https://flagcdn.com/w320/la.png"
+        },
+        "currencies": [
+          {
+            "code": "LAK",
+            "name": "کیپ لائوس",
+            "symbol": "₭"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "lo",
+            "iso639_2": "lao",
+            "name": "لائو",
+            "nativeName": "ພາສາລາວ"
+          }
+        ],
+        "translations": {
+          "br": "Laos",
+          "pt": "Laos",
+          "nl": "Laos",
+          "hr": "Laos",
+          "fa": "لائوس",
+          "de": "Laos",
+          "es": "Laos",
+          "fr": "Laos",
+          "ja": "ラオス人民民主共和国",
+          "it": "Laos",
+          "hu": "Laosz"
+        },
+        "flag": "https://flagcdn.com/la.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "ASEAN",
+            "name": "اتحادیه کشورهای جنوب شرق آسیا"
+          }
+        ],
+        "cioc": "LAO",
+        "independent": true
+      },
       {
-        "iso639_1": "lt",
-        "iso639_2": "lit",
+        "name": "لتونی",
+        "topLevelDomain": [".lv"],
+        "alpha2Code": "LV",
+        "alpha3Code": "LVA",
+        "callingCodes": ["371"],
+        "capital": "ریگا",
+        "altSpellings": ["LV", "جمهوری لتونی", "Latvijas Republika"],
+        "subregion": "شمال اروپا",
+        "region": "اروپا",
+        "population": 1901548,
+        "latlng": [57, 25],
+        "demonym": "لتونیایی",
+        "area": 64559,
+        "gini": 35.1,
+        "timezones": ["UTC+02:00"],
+        "borders": ["BLR", "EST", "LTU", "RUS"],
+        "nativeName": "Latvija",
+        "numericCode": "428",
+        "flags": {
+          "svg": "https://flagcdn.com/lv.svg",
+          "png": "https://flagcdn.com/w320/lv.png"
+        },
+        "currencies": [
+          {
+            "code": "EUR",
+            "name": "یورو",
+            "symbol": "€"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "lv",
+            "iso639_2": "lav",
+            "name": "لتونیایی",
+            "nativeName": "latviešu valoda"
+          }
+        ],
+        "translations": {
+          "br": "Latvia",
+          "pt": "Letónia",
+          "nl": "Letland",
+          "hr": "Latvija",
+          "fa": "لتونی",
+          "de": "Lettland",
+          "es": "Letonia",
+          "fr": "Lettonie",
+          "ja": "ラトビア",
+          "it": "Lettonia",
+          "hu": "Lettország"
+        },
+        "flag": "https://flagcdn.com/lv.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "EU",
+            "name": "اتحادیه اروپا"
+          }
+        ],
+        "cioc": "LAT",
+        "independent": true
+      },
+      {
+        "name": "لبنان",
+        "topLevelDomain": [".lb"],
+        "alpha2Code": "LB",
+        "alpha3Code": "LBN",
+        "callingCodes": ["961"],
+        "capital": "بیروت",
+        "altSpellings": ["LB", "جمهوری لبنان", "Al-Jumhūrīyah Al-Libnānīyah"],
+        "subregion": "غرب آسیا",
+        "region": "آسیا",
+        "population": 6825442,
+        "latlng": [33.83333333, 35.83333333],
+        "demonym": "لبنانی",
+        "area": 10452,
+        "gini": 31.8,
+        "timezones": ["UTC+02:00"],
+        "borders": ["ISR", "SYR"],
+        "nativeName": "لبنان",
+        "numericCode": "422",
+        "flags": {
+          "svg": "https://flagcdn.com/lb.svg",
+          "png": "https://flagcdn.com/w320/lb.png"
+        },
+        "currencies": [
+          {
+            "code": "LBP",
+            "name": "پوند لبنانی",
+            "symbol": "ل.ل"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "ar",
+            "iso639_2": "ara",
+            "name": "عربی",
+            "nativeName": "العربية"
+          },
+          {
+            "iso639_1": "fr",
+            "iso639_2": "fra",
+            "name": "فرانسوی",
+            "nativeName": "français"
+          }
+        ],
+        "translations": {
+          "br": "Liban",
+          "pt": "Líbano",
+          "nl": "Libanon",
+          "hr": "Libanon",
+          "fa": "لبنان",
+          "de": "Libanon",
+          "es": "Líbano",
+          "fr": "Liban",
+          "ja": "レバノン",
+          "it": "Libano",
+          "hu": "Libanon"
+        },
+        "flag": "https://flagcdn.com/lb.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AL",
+            "name": "اتحادیه عرب",
+            "otherNames": [
+              "جامعة الدول العربية",
+              "Jāmiʻat ad-Duwal al-ʻArabīyah",
+              "League of Arab States"
+            ]
+          }
+        ],
+        "cioc": "LBN",
+        "independent": true
+      }, 
+
+      {
+        "name": "لسوتو",
+        "topLevelDomain": [".ls"],
+        "alpha2Code": "LS",
+        "alpha3Code": "LSO",
+        "callingCodes": ["266"],
+        "capital": "ماسرو",
+        "altSpellings": ["LS", "پادشاهی لسوتو", "Muso oa Lesotho"],
+        "subregion": "جنوب آفریقا",
+        "region": "آفریقا",
+        "population": 2142252,
+        "latlng": [-29.5, 28.5],
+        "demonym": "موسوتو",
+        "area": 30355,
+        "gini": 44.9,
+        "timezones": ["UTC+02:00"],
+        "borders": ["ZAF"],
+        "nativeName": "Lesotho",
+        "numericCode": "426",
+        "flags": {
+          "svg": "https://flagcdn.com/ls.svg",
+          "png": "https://flagcdn.com/w320/ls.png"
+        },
+        "currencies": [
+          {
+            "code": "LSL",
+            "name": "لوتی لسوتو",
+            "symbol": "L"
+          },
+          {
+            "code": "ZAR",
+            "name": "راند آفریقای جنوبی",
+            "symbol": "R"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "انگلیسی",
+            "nativeName": "English"
+          },
+          {
+            "iso639_1": "st",
+            "iso639_2": "sot",
+            "name": "سوتو جنوبی",
+            "nativeName": "Sesotho"
+          }
+        ],
+        "translations": {
+          "br": "Lesotho",
+          "pt": "Lesoto",
+          "nl": "Lesotho",
+          "hr": "Lesoto",
+          "fa": "لسوتو",
+          "de": "Lesotho",
+          "es": "Lesotho",
+          "fr": "Lesotho",
+          "ja": "レソト",
+          "it": "Lesotho",
+          "hu": "Lesotho"
+        },
+        "flag": "https://flagcdn.com/ls.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AU",
+            "name": "اتحادیه آفریقا",
+            "otherNames": [
+              "الاتحاد الأفريقي",
+              "Union africaine",
+              "União Africana",
+              "Unión Africana",
+              "Umoja wa Afrika"
+            ]
+          }
+        ],
+        "cioc": "LES",
+        "independent": true
+      },
+      {
+        "name": "لیبریا",
+        "topLevelDomain": [".lr"],
+        "alpha2Code": "LR",
+        "alpha3Code": "LBR",
+        "callingCodes": ["231"],
+        "capital": "مونرویا",
+        "altSpellings": ["LR", "جمهوری لیبریا"],
+        "subregion": "غرب آفریقا",
+        "region": "آفریقا",
+        "population": 5057677,
+        "latlng": [6.5, -9.5],
+        "demonym": "لیبریایی",
+        "area": 111369,
+        "gini": 35.3,
+        "timezones": ["UTC"],
+        "borders": ["GIN", "CIV", "SLE"],
+        "nativeName": "Liberia",
+        "numericCode": "430",
+        "flags": {
+          "svg": "https://flagcdn.com/lr.svg",
+          "png": "https://flagcdn.com/w320/lr.png"
+        },
+        "currencies": [
+          {
+            "code": "LRD",
+            "name": "دلار لیبریا",
+            "symbol": "$"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "انگلیسی",
+            "nativeName": "English"
+          }
+        ],
+        "translations": {
+          "br": "Liberia",
+          "pt": "Libéria",
+          "nl": "Liberia",
+          "hr": "Liberija",
+          "fa": "لیبریا",
+          "de": "Liberia",
+          "es": "Liberia",
+          "fr": "Liberia",
+          "ja": "リベリア",
+          "it": "Liberia",
+          "hu": "Libéria"
+        },
+        "flag": "https://flagcdn.com/lr.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AU",
+            "name": "اتحادیه آفریقا",
+            "otherNames": [
+              "الاتحاد الأفريقي",
+              "Union africaine",
+              "União Africana",
+              "Unión Africana",
+              "Umoja wa Afrika"
+            ]
+          }
+        ],
+        "cioc": "LBR",
+        "independent": true
+      },
+      {
+        "name": "لیبی",
+        "topLevelDomain": [".ly"],
+        "alpha2Code": "LY",
+        "alpha3Code": "LBY",
+        "callingCodes": ["218"],
+        "capital": "طرابلس",
+        "altSpellings": ["LY", "کشور لیبی", "Dawlat Libya"],
+        "subregion": "شمال آفریقا",
+        "region": "آفریقا",
+        "population": 6871287,
+        "latlng": [25, 17],
+        "demonym": "لیبیایی",
+        "area": 1759540,
+        "timezones": ["UTC+01:00"],
+        "borders": ["DZA", "TCD", "EGY", "NER", "SDN", "TUN"],
+        "nativeName": "‏ليبيا",
+        "numericCode": "434",
+        "flags": {
+          "svg": "https://flagcdn.com/ly.svg",
+          "png": "https://flagcdn.com/w320/ly.png"
+        },
+        "currencies": [
+          {
+            "code": "LYD",
+            "name": "دینار لیبی",
+            "symbol": "ل.د"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "ar",
+            "iso639_2": "ara",
+            "name": "عربی",
+            "nativeName": "العربية"
+          }
+        ],
+        "translations": {
+          "br": "Libia",
+          "pt": "Líbia",
+          "nl": "Libië",
+          "hr": "Libija",
+          "fa": "لیبی",
+          "de": "Libyen",
+          "es": "Libia",
+          "fr": "Libye",
+          "ja": "リビア",
+          "it": "Libia",
+          "hu": "Líbia"
+        },
+        "flag": "https://flagcdn.com/ly.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "AU",
+            "name": "اتحادیه آفریقا",
+            "otherNames": [
+              "الاتحاد الأفريقي",
+              "Union africaine",
+              "União Africana",
+              "Unión Africana",
+              "Umoja wa Afrika"
+            ]
+          },
+          {
+            "acronym": "AL",
+            "name": "اتحادیه عرب",
+            "otherNames": [
+              "جامعة الدول العربية",
+              "Jāmiʻat ad-Duwal al-ʻArabīyah",
+              "League of Arab States"
+            ]
+          }
+        ],
+        "cioc": "LBA",
+        "independent": true
+      },
+      {
+        "name": "لیختن‌اشتاین",
+        "topLevelDomain": [".li"],
+        "alpha2Code": "LI",
+        "alpha3Code": "LIE",
+        "callingCodes": ["423"],
+        "capital": "وادوز",
+        "altSpellings": [
+          "LI",
+          "امیرنشین لیختن‌اشتاین",
+          "Fürstentum Liechtenstein"
+        ],
+        "subregion": "اروپای مرکزی",
+        "region": "اروپا",
+        "population": 38137,
+        "latlng": [47.26666666, 9.53333333],
+        "demonym": "لیختن‌اشتاینی",
+        "area": 160,
+        "timezones": ["UTC+01:00"],
+        "borders": ["AUT", "CHE"],
+        "nativeName": "Liechtenstein",
+        "numericCode": "438",
+        "flags": {
+          "svg": "https://flagcdn.com/li.svg",
+          "png": "https://flagcdn.com/w320/li.png"
+        },
+        "currencies": [
+          {
+            "code": "CHF",
+            "name": "فرانک سوئیس",
+            "symbol": "Fr"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "de",
+            "iso639_2": "deu",
+            "name": "آلمانی",
+            "nativeName": "Deutsch"
+          }
+        ],
+        "translations": {
+          "br": "Liechtenstein",
+          "pt": "Listenstaine",
+          "nl": "Liechtenstein",
+          "hr": "Lihtenštajn",
+          "fa": "لیختن‌اشتاین",
+          "de": "Liechtenstein",
+          "es": "Liechtenstein",
+          "fr": "Liechtenstein",
+          "ja": "リヒテンシュタイン",
+          "it": "Liechtenstein",
+          "hu": "Liechtenstein"
+        },
+        "flag": "https://flagcdn.com/li.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "EFTA",
+            "name": "اتحادیه تجارت آزاد اروپا"
+          }
+        ],
+        "cioc": "LIE",
+        "independent": true
+      },
+      {
         "name": "لیتوانی",
-        "nativeName": "lietuvių kalba"
+        "topLevelDomain": [".lt"],
+        "alpha2Code": "LT",
+        "alpha3Code": "LTU",
+        "callingCodes": ["370"],
+        "capital": "ویلنیوس",
+        "altSpellings": ["LT", "جمهوری لیتوانی", "Lietuvos Respublika"],
+        "subregion": "شمال اروپا",
+        "region": "اروپا",
+        "population": 2794700,
+        "latlng": [56, 24],
+        "demonym": "لیتوانیایی",
+        "area": 65300,
+        "gini": 35.7,
+        "timezones": ["UTC+02:00"],
+        "borders": ["BLR", "LVA", "POL", "RUS"],
+        "nativeName": "Lietuva",
+        "numericCode": "440",
+        "flags": {
+          "svg": "https://flagcdn.com/lt.svg",
+          "png": "https://flagcdn.com/w320/lt.png"
+        },
+        "currencies": [
+          {
+            "code": "EUR",
+            "name": "یورو",
+            "symbol": "€"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "lt",
+            "iso639_2": "lit",
+            "name": "لیتوانی",
+            "nativeName": "lietuvių kalba"
+          }
+        ],
+        "translations": {
+          "br": "Lituania",
+          "pt": "Lituânia",
+          "nl": "Litouwen",
+          "hr": "Litva",
+          "fa": "لیتوانی",
+          "de": "Litauen",
+          "es": "Lituania",
+          "fr": "Lituanie",
+          "ja": "リトアニア",
+          "it": "Lituania",
+          "hu": "Litvánia"
+        },
+        "flag": "https://flagcdn.com/lt.svg",
+        "regionalBlocs": [
+          {
+            "acronym": "EU",
+            "name": "اتحادیه اروپا"
+          }
+        ],
+        "cioc": "LTU",
+        "independent": true
       }
-    ],
-    "translations": {
-      "br": "Lituania",
-      "pt": "Lituânia",
-      "nl": "Litouwen",
-      "hr": "Litva",
-      "fa": "لیتوانی",
-      "de": "Litauen",
-      "es": "Lituania",
-      "fr": "Lituanie",
-      "ja": "リトアニア",
-      "it": "Lituania",
-      "hu": "Litvánia"
-    },
-    "flag": "https://flagcdn.com/lt.svg",
-    "regionalBlocs": [
-      {
-        "acronym": "EU",
-        "name": "اتحادیه اروپا"
-      }
-    ],
-    "cioc": "LTU",
-    "independent": true
-  }
-
-
-  ]
-  
 
 
 
-
-
-
-
-  
+    
+]
